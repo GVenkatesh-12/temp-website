@@ -86,12 +86,13 @@ const PaperSubmission = () => {
             </a>
             
             <a 
-              href="#" 
+              href="https://cmt3.research.microsoft.com/isssc2025" 
+              target="_blank" 
               className="flex items-center gap-2 px-4 py-3 bg-conference-blue text-white rounded-md hover:bg-conference-dark-blue transition-colors shadow-md"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('PDF link will be added later');
-              }}
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   alert('PDF link will be added later');
+              // }}
             >
               <Upload className="h-5 w-5" />
               Submission System (Coming Soon)
