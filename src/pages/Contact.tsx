@@ -22,9 +22,9 @@ const Contact = () => {
               <p className="mb-2">
                 <strong>General Inquiries:</strong>
                 <br />
-                <a href="mailto:issc2025@giet.edu" className="text-conference-blue hover:underline">issc2025@giet.edu</a>
+                <a href="mailto:isssc2025@gmail.com" className="text-conference-blue hover:underline">isssc2025@gmail.com</a>
               </p>
-              <p className="mb-2">
+              {/* <p className="mb-2">
                 <strong>Paper Submission:</strong>
                 <br />
                 <a href="mailto:papers.issc2025@giet.edu" className="text-conference-blue hover:underline">papers.issc2025@giet.edu</a>
@@ -33,7 +33,7 @@ const Contact = () => {
                 <strong>Registration:</strong>
                 <br />
                 <a href="mailto:registration.issc2025@giet.edu" className="text-conference-blue hover:underline">registration.issc2025@giet.edu</a>
-              </p>
+              </p> */}
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -42,15 +42,15 @@ const Contact = () => {
                 Phone
               </h2>
               <p className="mb-2">
-                <strong>Conference Secretariat:</strong>
+                <strong>Dr. P K Panigrahi</strong>
                 <br />
-                +91-1234567890
+                +91-7008189716 / +91-9861432688
               </p>
-              <p>
+              {/* <p>
                 <strong>Technical Support:</strong>
                 <br />
                 +91-0987654321
-              </p>
+              </p> */}
             </div>
           </div>
           
@@ -72,7 +72,7 @@ const Contact = () => {
             </address>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue mb-12">
+          {/* <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue mb-12">
             <h2 className="text-xl font-bold text-conference-blue mb-4 flex items-center">
               <MessageSquare className="h-5 w-5 mr-2" />
               Contact Form
@@ -129,7 +129,7 @@ const Contact = () => {
                 </button>
               </div>
             </form>
-          </div>
+          </div> */}
           
           <div className="bg-conference-light-blue p-6 rounded-lg">
             <h2 className="text-lg font-bold text-conference-blue mb-2">Response Time</h2>
