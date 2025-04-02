@@ -12,7 +12,7 @@ const Footer = () => {
             {/* Logos Section */}
             <div className="mt-1 flex justify-start items-center space-x-6 mb-4">
               <Link to="/">
-                <img src="/documents/logo-22.svg" alt="Logo 2" className="h-14" />
+              <img src="/documents/logo-22.svg" alt="Logo 2" className="h-[100px] w-[150px]" />
               </Link>
             </div>
 
