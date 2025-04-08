@@ -64,7 +64,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				conference: {
-					'blue': '#0EA5E9',
+					'blue': '#0000FF',
 					'light-blue': '#D3E4FD',
 					'dark-blue': '#0C4A6E',
 					'sky': '#7DD3FC',

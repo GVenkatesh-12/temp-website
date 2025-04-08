@@ -54,8 +54,8 @@ const NationalAdvisory = () => {
               { name: 'Dr Debi Prasad Das', institution: 'Scientist, IMMT Bhubaneswar' },
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                <h3 className="font-bold text-lg">{member.name}</h3>
-                <p className="text-gray-600">{member.institution}</p>
+                <h3 className="font-bold text-lg text-gray-950">{member.name}</h3>
+                <p className="text-gray-950">{member.institution}</p>
               </div>
             ))}
 

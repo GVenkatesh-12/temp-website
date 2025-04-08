@@ -14,7 +14,7 @@ const AuthorInstructions: React.FC = () => {
               Authors are invited to submit original and unpublished research papers following IEEE conference format. All submissions will undergo a rigorous peer-review process.
             </p>
             <p className="text-gray-700 mb-4 text-justify">
-              Papers should be submitted via the conference submission system. Please ensure your paper complies with the IEEE paper format guidelines.
+              Papers should be submitted via Microsoft-CMT System. Please ensure your paper complies with the IEEE paper format guidelines.
             </p>
             <p className="text-gray-700 mb-6" text-justify>
               The maximum page length is 6 pages. Accepted papers will be submitted for inclusion in IEEE Xplore subject to meeting IEEE requirements.
@@ -35,7 +35,7 @@ const AuthorInstructions: React.FC = () => {
               </a>
               
               <a 
-                href="/documents/author.pdf" 
+                href="https://www.ieee.org/conferences/publishing/templates.html" 
                 target="_blank" 
                 className="flex items-center justify-center gap-2 px-4 py-3 bg-conference-blue text-white rounded-md hover:bg-conference-dark-blue transition-colors shadow-md"
                 // onClick={(e) => {
@@ -44,7 +44,7 @@ const AuthorInstructions: React.FC = () => {
                 // }}
               >
                 <FileText className="h-5 w-5" />
-                IEEE Conference Template
+                IEEE Author Center
               </a>
             </div>
           </div>

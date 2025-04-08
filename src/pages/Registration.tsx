@@ -34,18 +34,18 @@ const Registration = () => {
                 <tr className="bg-white">
                   <td className="py-3 px-4 font-medium">Research Scholars
                   UG and PG Students</td>
-                  <td className="py-3 px-4 text-center">2,500 INR</td>
-                  <td className="py-3 px-4 text-center">3,000 INR</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="py-3 px-4 font-medium">Academicians</td>
                   <td className="py-3 px-4 text-center">3,500 INR</td>
                   <td className="py-3 px-4 text-center">4,000 INR</td>
                 </tr>
+                <tr className="bg-gray-50">
+                  <td className="py-3 px-4 font-medium">Academicians</td>
+                  <td className="py-3 px-4 text-center">4,000 INR</td>
+                  <td className="py-3 px-4 text-center">4,500 INR</td>
+                </tr>
                 <tr className="bg-white">
                   <td className="py-3 px-4 font-medium">Industry</td>
-                  <td className="py-3 px-4 text-center">7,000 INR</td>
-                  <td className="py-3 px-4 text-center">8,000 INR</td>
+                  <td className="py-3 px-4 text-center">6,000 INR</td>
+                  <td className="py-3 px-4 text-center">6,500 INR</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 font-medium">Foreign Student Participants</td>

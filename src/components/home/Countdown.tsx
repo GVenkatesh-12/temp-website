@@ -56,7 +56,7 @@ const Countdown: React.FC = () => {
     <div className="py-6 px-4">
       <div className="text-center mb-4">
         <h2 className="text-4xl font-bold text-conference-navy">IEEE-iSSSC 2025</h2>
-        <p className="text-2xl font-bold text-[#2862EB]">November 06, 2025</p>
+        <p className="text-2xl font-bold text-[#0000FF]">November 06, 2025</p>
       </div>
       
       <div className="flex justify-center space-x-4 md:space-x-8">

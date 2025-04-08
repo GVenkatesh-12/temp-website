@@ -93,6 +93,18 @@ const Navbar = () => {
                   >
                     Technical Program Committee
                   </Link>
+                  <Link
+                    to="/committee/industrial-collaboration"
+                    className="block px-4 py-2 text-sm hover:bg-conference-light-blue"
+                  >
+                    Industrial Collaboration Committee
+                  </Link>
+                  <Link
+                    to="/committee/womenin-engineering"
+                    className="block px-4 py-2 text-sm hover:bg-conference-light-blue"
+                  >
+                    Women in Engineering Committee
+                  </Link>
                 </div>
               )}
             </div>

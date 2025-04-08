@@ -18,6 +18,8 @@ import OrganizingCommittee from "./pages/committees/OrganizingCommittee";
 import InternationalAdvisory from "./pages/committees/InternationalAdvisory";
 import NationalAdvisory from "./pages/committees/NationalAdvisory";
 import TechnicalProgram from "./pages/committees/TechnicalProgram";
+import IndustrialCollaboration from "./pages/committees/IndustrialCollaboration";
+import WomeninEngineering from "./pages/committees/WomeninEngineering";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -44,6 +46,8 @@ const App = () => (
               <Route path="international-advisory" element={<InternationalAdvisory />} />
               <Route path="national-advisory" element={<NationalAdvisory />} />
               <Route path="technical-program" element={<TechnicalProgram />} />
+              <Route path="industrial-collaboration" element={<IndustrialCollaboration />} />
+              <Route path="womenin-engineering" element={<WomeninEngineering />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Route>

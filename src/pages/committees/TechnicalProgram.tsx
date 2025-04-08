@@ -6,7 +6,7 @@ const TechnicalProgram = () => {
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-5xl threejs-overlay">
       <div className="glassmorphism p-8 rounded-xl">
         <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">
-          International Advisory Board
+          Technical Program Committee
         </h1>
 
         <div className="prose max-w-none text-gray-700">
@@ -30,7 +30,7 @@ const TechnicalProgram = () => {
               { "name": "Dr. Subha D Puthankattil", "affiliation": "NIT Calicut" },
               { "name": "Dr. Saikat Ch. Bakshi", "affiliation": "NIT Calicut" },
               { "name": "Dr. Mahendra Pratap Singh", "affiliation": "NIT Surathkal" },
-              { "name": "Dr. SHIHABUDHEEN KV", "affiliation": "NIT Calicut" },
+              { "name": "Dr. Shihabudheen K V", "affiliation": "NIT Calicut" },
               { "name": "Dr. Pathipati Srihar", "affiliation": "NIT Surathkal" },
               { "name": "Dr. Santosh Kumar Behera", "affiliation": "NIT Calicut" },
               { "name": "Dr. Debasmita Panda", "affiliation": "NIT Warangal" },
@@ -94,8 +94,8 @@ const TechnicalProgram = () => {
                 key={index}
                 className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue"
               >
-                <h3 className="font-bold text-lg">{member.name}</h3>
-                <p className="text-gray-600">{member.affiliation}</p>
+                <h3 className="font-bold text-lg text-gray-950">{member.name}</h3>
+                <p className="text-gray-950">{member.affiliation}</p>
               </div>
             ))}
           </div>

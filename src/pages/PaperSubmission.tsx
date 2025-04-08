@@ -50,7 +50,7 @@ const PaperSubmission = () => {
           
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Review Process</h2>
           <p className="mb-4">
-            All submissions will undergo a rigorous double-blind peer review process. Each paper will be reviewed by at least three members of the Technical Program Committee based on technical quality, originality, relevance, and presentation.
+            All submissions will undergo a rigorous peer review process. Each paper will be reviewed by at least three members of the Technical Program Committee based on technical quality, originality, relevance, and presentation.
           </p>
           
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Publication</h2>
@@ -62,24 +62,24 @@ const PaperSubmission = () => {
           
           <div className="flex flex-wrap gap-4 mb-8">
             <a 
-              href="#" 
+              href="/documents/conference-template-a4.docx" 
               className="flex items-center gap-2 px-4 py-3 bg-conference-blue text-white rounded-md hover:bg-conference-dark-blue transition-colors shadow-md"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('PDF link will be added later');
-              }}
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   alert('PDF link will be added later');
+              // }}
             >
               <FileText className="h-5 w-5" />
               IEEE Conference Template (Word)
             </a>
             
             <a 
-              href="#" 
+              href="/documents/conference-latex-template_10-17-19.zip" 
               className="flex items-center gap-2 px-4 py-3 bg-conference-blue text-white rounded-md hover:bg-conference-dark-blue transition-colors shadow-md"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('PDF link will be added later');
-              }}
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   alert('PDF link will be added later');
+              // }}
             >
               <FileText className="h-5 w-5" />
               IEEE Conference Template (LaTeX)
