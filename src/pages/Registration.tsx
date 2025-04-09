@@ -13,7 +13,7 @@ const Registration = () => {
           <div>
             <h3 className="text-lg font-semibold text-yellow-700 mb-1">Registration Not Yet Open</h3>
             <p className="text-gray-700">
-              Registration for iSSSC 2025 will open in early 2025. The information provided below is tentative and subject to change.
+              Registration for iSSSC 2025 will open soon. The information provided below is tentative and subject to change.
             </p>
           </div>
         </div>
@@ -102,7 +102,7 @@ const Registration = () => {
               <Calendar className="h-5 w-5 text-conference-blue flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium">Early Bird Registration Deadline</h3>
-                <p>September 30, 2025</p>
+                <p>Coming Soon</p>
               </div>
             </div>
             
@@ -110,7 +110,7 @@ const Registration = () => {
               <Calendar className="h-5 w-5 text-conference-blue flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium">Regular Registration Deadline</h3>
-                <p>October 31, 2025</p>
+                <p>Coming Soon</p>
               </div>
             </div>
             
@@ -118,14 +118,14 @@ const Registration = () => {
               <CreditCard className="h-5 w-5 text-conference-blue flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium">Payment Methods</h3>
-                <p>Credit Card, Bank Transfer</p>
+                <p>Coming Soon</p>
               </div>
             </div>
           </div>
           
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Contact</h2>
           <p className="mb-4">
-            For any queries regarding registration, please contact: <a href="mailto:issc2025@giet.edu" className="text-conference-blue hover:underline">issc2025@giet.edu</a>
+            For any queries regarding registration, please contact: <a href="mailto:issc2025@gmail.com" className="text-conference-blue hover:underline">issc2025@gmail.com</a>
           </p>
         </div>
       </div>

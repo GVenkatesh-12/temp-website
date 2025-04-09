@@ -10,7 +10,7 @@ const Venue = () => {
         
         <div className="prose max-w-none text-gray-700">
           <p className="mb-8">
-            The 3rd IEEE International Symposium on Sustainable Energy, Signal Processing and Cyber Security (iSSSC 2025) will be held at GIET University, Gunupur, Odisha, India.
+            The 2025 IEEE 3rd International Symposium on Sustainable Energy, Signal Processing and Cybersecurity (iSSSC 2025) will be held at GIET University, Gunupur, Odisha, India.
           </p>
           
           <div className="bg-gray-200 h-80 mb-8 rounded-lg flex items-center justify-center">
@@ -37,12 +37,11 @@ const Venue = () => {
                 Accommodation
               </h2>
               <p className="mb-4">
-                A list of recommended hotels near the conference venue will be provided soon. Special rates will be negotiated for conference participants.
+                A list of recommended hotels near the conference venue.
               </p>
               <ul className="list-disc pl-5 mb-6 space-y-2">
-                <li>Hotel Grand Palace (4-star, 2 km from venue)</li>
-                <li>Hotel Sunshine (3-star, 1 km from venue)</li>
-                <li>University Guest House (on campus)</li>
+                <li>Sai Surya Residency (4 km from venue)</li>
+                <li>Jagannath Palace (3.2 km from venue)</li>
                 <li>Budget Stays (various options within 3 km)</li>
               </ul>
             </div>
@@ -60,7 +59,7 @@ const Venue = () => {
                 <li>Bhubaneswar Airport (350 km)</li>
               </ul>
               <p>
-                From these airports, you can reach Gunupur by taxi or bus. The organizing committee will arrange for pickup services from major transportation hubs.
+                From these airports, you can reach Gunupur by taxi or bus.
               </p>
             </div>
           </div>
@@ -75,9 +74,9 @@ const Venue = () => {
                 Various transportation options are available within Gunupur:
               </p>
               <ul className="list-disc pl-5 mb-6 space-y-2">
-                <li>Taxi services</li>
+                <li>University Bus</li>
                 <li>Auto-rickshaws</li>
-                <li>Shuttle services (will be arranged by the conference)</li>
+                <li>Taxi</li>
               </ul>
             </div>
             
@@ -98,7 +97,7 @@ const Venue = () => {
             </div>
           </div>
           
-          <div className="bg-conference-light-blue p-6 rounded-lg mt-8">
+          {/* <div className="bg-conference-light-blue p-6 rounded-lg mt-8">
             <h2 className="text-lg font-bold text-conference-blue mb-2">Visa Information</h2>
             <p className="mb-4">
               International participants may require a visa to enter India. We recommend applying for a visa well in advance of the conference. The organizing committee can provide invitation letters to support your visa application upon request.
@@ -106,7 +105,7 @@ const Venue = () => {
             <p>
               For visa-related inquiries, please contact: <a href="mailto:issc2025@giet.edu" className="text-conference-blue hover:underline">issc2025@giet.edu</a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

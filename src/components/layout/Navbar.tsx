@@ -45,7 +45,7 @@ const Navbar = () => {
               About
             </Link>
             <Link to="/paper-submission" className={`nav-link ${isActive('/paper-submission') ? 'active' : ''}`}>
-              Paper Submission
+              Call for Papers
             </Link>
             <Link to="/registration" className={`nav-link ${isActive('/registration') ? 'active' : ''}`}>
               Registration

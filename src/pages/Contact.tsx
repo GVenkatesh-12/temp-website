@@ -42,7 +42,7 @@ const Contact = () => {
                 Phone
               </h2>
               <p className="mb-2">
-                <strong>Dr. P K Panigrahi</strong>
+                <strong>Dr. P K Panigrahi, GIETU, Gunupur</strong>
                 <br />
                 +91-7008189716 / +91-9861432688
               </p>
@@ -53,6 +53,50 @@ const Contact = () => {
               </p> */}
             </div>
           </div>
+
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+              <h2 className="text-xl font-bold text-conference-blue mb-4 flex items-center">
+                <Phone className="h-5 w-5 mr-2" />
+                Phone
+              </h2>
+              <p className="mb-2">
+                <strong>Dr. B D Sahoo, NIT Rourkela </strong>
+                <br />
+                +91-9337938766
+              </p>
+              {/* <p className="mb-2">
+                <strong>Paper Submission:</strong>
+                <br />
+                <a href="mailto:papers.issc2025@giet.edu" className="text-conference-blue hover:underline">papers.issc2025@giet.edu</a>
+              </p>
+              <p>
+                <strong>Registration:</strong>
+                <br />
+                <a href="mailto:registration.issc2025@giet.edu" className="text-conference-blue hover:underline">registration.issc2025@giet.edu</a>
+              </p> */}
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+              <h2 className="text-xl font-bold text-conference-blue mb-4 flex items-center">
+                <Phone className="h-5 w-5 mr-2" />
+                Phone
+              </h2>
+              <p className="mb-2">
+                <strong>Dr. Srikant Misra, GIETU, Gunupur</strong>
+                <br />
+                +91-9439330052 / +91-9692474702
+              </p>
+              {/* <p>
+                <strong>Technical Support:</strong>
+                <br />
+                +91-0987654321
+              </p> */}
+            </div>
+          </div>
+
+
           
           <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue mb-12">
             <h2 className="text-xl font-bold text-conference-blue mb-4 flex items-center">

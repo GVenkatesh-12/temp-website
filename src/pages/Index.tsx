@@ -15,12 +15,12 @@ const Index = () => {
         <Countdown />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0 px-4 sm:px-6">
           <div className="col-span-2">
-            <Announcements />
+            {/* <Announcements /> */}
             {/* <ImportantDates /> */}
           </div>
-          <div className="col-span-1 -m-[11px]">
+          {/* <div className="col-span-1 -m-[11px]">
             <AuthorInstructions />
-          </div>
+          </div> */}
         </div>
         <ImportantDates />
         <Tracks />

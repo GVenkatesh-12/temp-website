@@ -5,11 +5,11 @@ const About = () => {
   return (
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-5xl threejs-overlay">
       <div className="glassmorphism p-8 rounded-xl">
-        <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">About iSSSC 2025</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-conference-blue mb-6">About iSSSC 2025</h1>
 
         <div className="prose max-w-none text-gray-700">
           <p className="mb-4">
-            Welcome to the 3rd IEEE International Symposium on Sustainable Energy, Signal Processing, and Cyber Security (iSSSC 2025), hosted by the Department of Electrical and Electronics Engineering and the Department of Electronics and Communication Engineering, GIET University, Gunupur, Odisha, India, from November 06-08, 2025.
+            Welcome to the 3rd edition of IEEE International Symposium on Sustainable Energy, Signal Processing, and Cyber Security (iSSSC 2025), hosted by the Department of Electrical and Electronics Engineering and the Department of Electronics and Communication Engineering, GIET University, Gunupur, Odisha, India, from November 06-08, 2025.
           </p>
 
           <p className="mb-4">
@@ -18,21 +18,21 @@ const About = () => {
           <p className="mb-4">
             <b>The symposium is structured around six dynamic tracks, covering key topics:</b>
             <ul className="list-disc pl-5 mb-6 space-y-2">
-              <li>Sustainable Energy Technologies</li>
+            <li>
+               Track 1: Prototyping and Funding Models
+              </li>
+              <li>Track 2: Sustainable Energy Technologies</li>
               <li>
-                Signal Processing Applications
+              Track 3: Signal Processing Applications
               </li>
               <li>
-                Cyber Security and Privacy
+              Track 4: Cyber Security and Privacy
               </li>
               <li>
-                AI/ML for Sustainability
+              Track 5: Smart Communication and Antenna
               </li>
               <li>
-                Prototyping and Funding Models
-              </li>
-              <li>
-                Interdisciplinary Case Studies
+              Track 6: Interdisciplinary Case Studies
               </li>
             </ul>
           </p>

@@ -12,7 +12,8 @@ const Footer = () => {
             {/* Logos Section */}
             <div className="mt-1 flex justify-start items-center space-x-6 mb-4">
               <Link to="/">
-              <img src="/documents/logo-22.svg" alt="Logo 2" className="h-[100px] w-[150px]" />
+              <img src="/documents/logo-22.svg" alt="Logo 2" className="h-[110px] w-[180px]" />
+
               </Link>
             </div>
 
@@ -39,7 +40,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/paper-submission" className="text-gray-300 hover:text-white transition-colors">
-                  Paper Submission
+                  Call for Papers
                 </Link>
               </li>
               <li>
@@ -59,8 +60,8 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <address className="not-italic text-sm text-gray-300">
               <p>GIET University</p>
-              <p>Gunupur, Odisha</p>
-              <p>India</p>
+              <p>Gunupur - 765022</p>
+              <p>Odisha, India</p>
               <p className="mt-2">
                 <a href="mailto:isssc2025@gmail.com" className="hover:text-white transition-colors">
                   isssc2025@gmail.com

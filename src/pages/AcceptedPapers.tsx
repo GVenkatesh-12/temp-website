@@ -18,7 +18,7 @@ const AcceptedPapers = () => {
           </div>
         </div>
         
-        <div className="prose max-w-none text-gray-700">
+        {/* <div className="prose max-w-none text-gray-700">
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Paper Selection Process</h2>
           <p className="mb-4">
             All submitted papers undergo a rigorous double-blind peer-review process. Each paper is reviewed by at least three members of the Technical Program Committee based on the following criteria:
@@ -50,7 +50,7 @@ const AcceptedPapers = () => {
               <li><strong>Conference Dates:</strong> November 06-08, 2025</li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
