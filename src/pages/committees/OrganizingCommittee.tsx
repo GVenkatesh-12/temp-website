@@ -148,18 +148,6 @@ const OrganizingCommittee = () => {
               <h3 className="font-bold text-lg text-gray-950">Dr. Srikant Mahapatra</h3>
               <p className="text-gray-950">TCS Bhubaneswar</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Pravat Kumar Roy</h3>
-              <p className="text-gray-950">NIT Rourkela</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Ranjan Kumar Pradhan</h3>
-              <p className="text-gray-950">OUTR Bhubaneswar</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Niranjan Ray</h3>
-              <p className="text-gray-950">KIITS Bhubaneswar</p>
-            </div>
           </div>
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Women in Engineering Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -170,18 +158,6 @@ const OrganizingCommittee = () => {
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
               <h3 className="font-bold text-lg text-gray-950">Dr. Nibaran Das</h3>
               <p className="text-gray-950">Jadavpur University, WB</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Pravat Kumar Roy</h3>
-              <p className="text-gray-950">NIT Rourkela</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Ranjan Kumar Pradhan</h3>
-              <p className="text-gray-950">OUTR Bhubaneswar</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Niranjan Ray</h3>
-              <p className="text-gray-950">KIITS Bhubaneswar</p>
             </div>
           </div>
         </div>
