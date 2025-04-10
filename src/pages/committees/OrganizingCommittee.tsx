@@ -110,6 +110,19 @@ const OrganizingCommittee = () => {
             </div>
           </div>
           
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Publication Chair(s)</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+              <h3 className="font-bold text-lg text-gray-950">Dr. Michael Packianather</h3>
+              <p className="text-gray-950">Cardiff Unversity, UK</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+              <h3 className="font-bold text-lg text-gray-950">Dr. A K Swain</h3>
+              <p className="text-gray-950">NIT Rourkela</p>
+            </div>
+          </div>
+
+
           {/* <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Local Organizing Committee</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
