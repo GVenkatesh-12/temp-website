@@ -18,21 +18,21 @@ const About = () => {
           <p className="mb-4">
             <b>The symposium is structured around six dynamic tracks, covering key topics:</b>
             <ul className="list-disc pl-5 mb-6 space-y-2">
-            <li>
-               Track 1: Prototyping and Funding Models
+              <li>
+                Track 1: Prototyping and Funding Models
               </li>
               <li>Track 2: Sustainable Energy Technologies</li>
               <li>
-              Track 3: Signal Processing Applications
+                Track 3: Signal Processing Applications
               </li>
               <li>
-              Track 4: Cyber Security and Privacy
+                Track 4: Cyber Security and Privacy
               </li>
               <li>
-              Track 5: Smart Communication and Antenna
+                Track 5: Smart Communication and Antenna
               </li>
               <li>
-              Track 6: Interdisciplinary Case Studies
+                Track 6: Interdisciplinary Case Studies
               </li>
             </ul>
           </p>
@@ -61,13 +61,37 @@ const About = () => {
 
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">About GIET University</h2>
           <p className="mb-4">
-          GIET University, Gunupur, Odisha, India (formerly known as Gandhi Institute of Engineering and Technology) was established by “Vidya Bharati Educational Trust,” in the year 1997. Since inception, the Trust promotes Technical Education in India with a motto of providing Quality Education in a highly disciplined and conducive environment with International Standards. GIET University attained autonomous status in the year 2017 and again added another gleaming feather to its cap with the conferment of the University Status through an act of Odisha Legislative Assembly and forthwith approved by UGC, New Delhi in 2018.
-            </p>
+            GIET University, Gunupur, Odisha, India (formerly known as Gandhi Institute of Engineering and Technology) was established by “Vidya Bharati Educational Trust,” in the year 1997. Since inception, the Trust promotes Technical Education in India with a motto of providing Quality Education in a highly disciplined and conducive environment with International Standards. GIET University attained autonomous status in the year 2017 and again added another gleaming feather to its cap with the conferment of the University Status through an act of Odisha Legislative Assembly and forthwith approved by UGC, New Delhi in 2018.
+          </p>
 
-            <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">About the Department</h2>
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">About the Department</h2>
+
+
           <p className="mb-4">
-          The Department of Electrical & Electronics Engineering (EEE) & Electrical Engineering (EE) was established in 2007 & 2008 respectively and runs Under Graduate (UG) program to cater to the challenging needs of technical excellence in the areas of Electrical & Electronics Engineering such as Control & Automation, Power Systems, Power Electronics, Electrical Machines & Drives, Renewable Energy Sources (RES), Energy Management, Distributed Energy Sources, Micro Grid & Smart Grid, Communication VLSI and Embedded Systems, etc. The Department of EEE got accreditation from the NBA in the year 2018. Looking into the future perspective of technology transformation & industry requirements, the Department has introduced some new subjects pertaining to the thrust area of engineering such as IoT, Artificial Intelligence, and Big Data Analytics, etc. in the UG curriculum, so that the graduate students can overcome the technological gap between academia & industry. In addition, the department is also offering Post Graduate (PG) program in Power Electronics & Ph.D. programs in core & multidisciplinary domains. The faculty members of the department have been constantly carrying out research on many innovative technologies and regularly publishing their research outcomes in various national/international conferences and journals as well. The department has also undertaken a number of R&D projects/schemes with the financial assistance from AICTE, UGC, DST & MSME including international collaborative research organizations and doing consultancy works in the area of Renewable Energy, Green buildings, Energy Management & Auditing.
-           </p>
+            The Department of Electrical and Electronics Engineering (EEE) at GIET University, Gunupur, was established in the academic year 2007–2008 with the goal of providing high-quality technical education to aspiring power engineers. The department is dedicated to nurturing an environment where students can reach their full potential and grow into principled, committed professionals.
+          </p>
+
+          <p className="mb-4">
+            The department is actively involved in cutting-edge research in areas such as Power Systems, Renewable Energy Systems, the Internet of Things (IoT), Big Data, Artificial Intelligence, Energy Management, and Distribution Systems. It has executed several R&D projects funded by prestigious organizations like DST, MSME, UGC, and AICTE. Furthermore, the department offers consultancy services in areas such as motor testing, solar and wind energy projects, IoT-based smart solutions, energy audits, and energy management systems.
+          </p>
+
+          <p className="mb-4">
+            With a strong emphasis on industry-academia collaboration, the department facilitates industrial training programs to expose students to the latest industry practices and technologies. It also organizes on-campus technical training sessions on various software tools, including MATLAB, PowerSim, P-Spice, HOMER, and others.
+          </p>
+          The department is equipped with state-of-the-art laboratories, a well-stocked departmental library, and a seminar hall, all of which aim to support advanced academic and research activities in emerging areas such as Electric Vehicles, Smart Grids, and IoT-based Data Analytics.
+          <p className="mb-4">
+            Under the department's initiative, several innovative installations are operational, including a 500 kWp rooftop solar plant, a dual-axis solar tracking system, a solar-powered walkway, and a Zero Energy Building (ZEB) test bed.
+          </p>
+
+          <p className="mb-4">
+            The department has successfully secured four patents for innovations developed through its startup ventures, with an additional fifteen patents in the pipeline. Some of these patented technologies are ready for commercial production and market launch.
+          </p>
+
+
+          <p className="mb-4">
+            In conclusion, the Department of Electrical and Electronics Engineering at GIET University remains committed to providing top-notch education, promoting innovation-driven research, and equipping students for impactful careers in the dynamic field of Electrical and Electronics Engineering.
+          </p>
+
 
 
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">About IEEE</h2>
