@@ -162,7 +162,7 @@ const Navbar = () => {
               className="block px-3 py-2 rounded-md text-base font-medium hover:bg-conference-light-blue"
               onClick={() => setIsOpen(false)}
             >
-              Paper Submission
+              Call for Papers
             </Link>
             <Link
               to="/registration"
@@ -215,6 +215,18 @@ const Navbar = () => {
                     onClick={() => setIsOpen(false)}
                   >
                     Technical Program Committee
+                  </Link>
+                  <Link
+                    to="/committee/industrial-collaboration"
+                    className="block px-4 py-2 text-sm hover:bg-conference-light-blue"
+                  >
+                    Industrial Collaboration Committee
+                  </Link>
+                  <Link
+                    to="/committee/womenin-engineering"
+                    className="block px-4 py-2 text-sm hover:bg-conference-light-blue"
+                  >
+                    Women in Engineering Committee
                   </Link>
                 </div>
               )}
