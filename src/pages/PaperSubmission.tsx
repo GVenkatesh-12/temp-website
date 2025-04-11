@@ -48,7 +48,7 @@ const PaperSubmission = () => {
             </li>
           </ul> */}
 
-          <h1 className="text-3xl md:text-4xl font-bold text-conference-blue mb-6">Guideline to Authors</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">Guideline to Authors</h1>
 
           {/* New Section: AUTHOR GUIDELINE */}
           <div className="prose max-w-none text-gray-750 mb-10">
