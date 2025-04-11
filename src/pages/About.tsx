@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-5xl threejs-overlay">
       <div className="glassmorphism p-8 rounded-xl">
-        <h1 className="text-3xl md:text-4xl font-bold text-conference-blue mb-6">About iSSSC 2025</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">About iSSSC 2025</h1>
 
         <div className="prose max-w-none text-gray-700">
           <p className="mb-4">
