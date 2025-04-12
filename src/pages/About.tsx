@@ -147,22 +147,6 @@ const About = () => {
             <p className="mb-4">
               The department actively organizes national and international conferences, workshops, and faculty development programs with participation from reputed institutions like IITs, NITs, and IISc. Its student association, EONYX, plays a vital role in conducting technical and social activities. Through its commitment to innovation, collaboration, and continuous learning, the ECE department prepares students to meet modern technological challenges.
             </p>
-
-            <p className="mb-4">
-              The department is equipped with state-of-the-art laboratories, a well-stocked departmental library, and a seminar hall, all of which aim to support advanced academic and research activities in emerging areas such as Electric Vehicles, Smart Grids, and IoT-based Data Analytics.
-            </p>
-
-            <p className="mb-4">
-              Under the department's initiative, several innovative installations are operational, including a 500 kWp rooftop solar plant, a dual-axis solar tracking system, a solar-powered walkway, and a Zero Energy Building (ZEB) test bed.
-            </p>
-
-            <p className="mb-4">
-              The department has successfully secured four patents for innovations developed through its startup ventures, with an additional fifteen patents in the pipeline. Some of these patented technologies are ready for commercial production and market launch.
-            </p>
-
-            <p className="mb-4">
-              In conclusion, the Department of Electrical and Electronics Engineering at GIET University remains committed to providing top-notch education, promoting innovation-driven research, and equipping students for impactful careers in the dynamic field of Electrical and Electronics Engineering.
-            </p>
           </div>
         </div>
 
