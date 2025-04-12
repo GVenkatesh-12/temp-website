@@ -105,6 +105,12 @@ const Navbar = () => {
                   >
                     Women in Engineering Committee
                   </Link>
+                  <Link
+                    to="/committee/local-advisory"
+                    className="block px-4 py-2 text-sm hover:bg-conference-light-blue"
+                  >
+                    Local Advisory Committee
+                  </Link>
                 </div>
               )}
             </div>
@@ -227,6 +233,12 @@ const Navbar = () => {
                     className="block px-4 py-2 text-sm hover:bg-conference-light-blue"
                   >
                     Women in Engineering Committee
+                  </Link>
+                  <Link
+                    to="/committee/local-advisory"
+                    className="block px-4 py-2 text-sm hover:bg-conference-light-blue"
+                  >
+                    Local Advisory Committee
                   </Link>
                 </div>
               )}

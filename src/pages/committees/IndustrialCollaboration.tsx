@@ -17,7 +17,6 @@ const IndustrialCollaboration = () => {
             {[
               { name: "Dr. Pramod Kumar Misra", affiliation: "PRA India, Pvt Ltd" },
               { name: "Mr. Madhu Vadlamani", affiliation: "WinWire Technology, Pvt Ltd" },
-              { name: "Dr. Srikanta Mohapatra", affiliation: "TCS, Bhubaneswar" },
               { name: "Dr. Bijaya Kumura", affiliation: "Utkal Alumina International Ltd, Sambalpur" },
               { name: "Mr. Biswaranjan Jena", affiliation: "TCS, Bhubaneswar" },
               { name: "Mr. Ramesh Naidu", affiliation: "MindX360, Hyderabad" },

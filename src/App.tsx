@@ -20,6 +20,7 @@ import NationalAdvisory from "./pages/committees/NationalAdvisory";
 import TechnicalProgram from "./pages/committees/TechnicalProgram";
 import IndustrialCollaboration from "./pages/committees/IndustrialCollaboration";
 import WomeninEngineering from "./pages/committees/WomeninEngineering";
+import LocalAdvisory from "./pages/committees/LocalAdvisory";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -48,6 +49,7 @@ const App = () => (
               <Route path="technical-program" element={<TechnicalProgram />} />
               <Route path="industrial-collaboration" element={<IndustrialCollaboration />} />
               <Route path="womenin-engineering" element={<WomeninEngineering />} />
+              <Route path="local-advisory" element={<LocalAdvisory />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Route>

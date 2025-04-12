@@ -21,9 +21,9 @@ const Speakers = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <div className="p-6">
-                <h2 className="text-xl font-bold text-conference-blue mb-2">Prof. Elizabeth Carter</h2>
-                <p className="text-gray-600 font-medium mb-2">MIT, USA</p>
+              {/* <div className="p-6">
+                <h2 className="text-xl font-bold text-conference-blue mb-2"></h2>
+                <p className="text-gray-600 font-medium mb-2"></p>
                 <p className="text-gray-700 mb-4">
                   Director of the Sustainable Energy Research Center at MIT. Dr. Carter's research focuses on next-generation renewable energy systems and grid integration.
                 </p>
@@ -31,7 +31,7 @@ const Speakers = () => {
                 <p className="text-gray-700">
                   "Future Directions in Sustainable Energy: Challenges and Opportunities"
                 </p>
-              </div>
+              </div> */}
             </div>
             
             <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
@@ -40,7 +40,7 @@ const Speakers = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <div className="p-6">
+              {/* <div className="p-6">
                 <h2 className="text-xl font-bold text-conference-blue mb-2">Prof. Rajiv Mehta</h2>
                 <p className="text-gray-600 font-medium mb-2">IIT Delhi, India</p>
                 <p className="text-gray-700 mb-4">
@@ -50,7 +50,7 @@ const Speakers = () => {
                 <p className="text-gray-700">
                   "Advanced Signal Processing Techniques for 6G Communications"
                 </p>
-              </div>
+              </div> */}
             </div>
             
             <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
@@ -59,7 +59,7 @@ const Speakers = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <div className="p-6">
+              {/* <div className="p-6">
                 <h2 className="text-xl font-bold text-conference-blue mb-2">Prof. Sophie Chen</h2>
                 <p className="text-gray-600 font-medium mb-2">ETH Zurich, Switzerland</p>
                 <p className="text-gray-700 mb-4">
@@ -69,7 +69,7 @@ const Speakers = () => {
                 <p className="text-gray-700">
                   "Securing Critical Infrastructure in the Age of AI and IoT"
                 </p>
-              </div>
+              </div> */}
             </div>
             
             <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
@@ -78,7 +78,7 @@ const Speakers = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <div className="p-6">
+              {/* <div className="p-6">
                 <h2 className="text-xl font-bold text-conference-blue mb-2">Dr. Hiroshi Yamamoto</h2>
                 <p className="text-gray-600 font-medium mb-2">University of Tokyo, Japan</p>
                 <p className="text-gray-700 mb-4">
@@ -88,7 +88,7 @@ const Speakers = () => {
                 <p className="text-gray-700">
                   "Digital Twins and AI in Next-Generation Product Design"
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           

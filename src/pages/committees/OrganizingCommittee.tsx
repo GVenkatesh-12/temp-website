@@ -14,7 +14,7 @@ const OrganizingCommittee = () => {
             successful international conferences.
           </p>
           
-          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Chief Patrons</h2>
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Chief Patron(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
               <h3 className="font-bold text-lg text-gray-950">Dr. Satya Prakash Panda</h3>
@@ -30,7 +30,7 @@ const OrganizingCommittee = () => {
             </div>
           </div>
           
-          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Patrons</h2>
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Patron(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
               <h3 className="font-bold text-lg text-gray-950">Dr. AVNL Sharma</h3>
@@ -61,8 +61,8 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Vice-Chair, IEEE Bhubaneswar Section</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Prof. G R K D Satya Prasad</h3>
-              <p className="text-gray-950">HoD-EEE, GIET University</p>
+              <h3 className="font-bold text-lg text-gray-950">Dr. Dulu Patnaik</h3>
+              <p className="text-gray-950">Dean SOET, GIET University</p>
             </div>
           </div>
           
@@ -109,6 +109,14 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">KIITS Bhubaneswar</p>
             </div>
           </div>
+
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Conference Chair</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+              <h3 className="font-bold text-lg text-gray-950">Prof. G R K D Satya Prasad</h3>
+              <p className="text-gray-950">GIET University</p>
+            </div>
+          </div>
           
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Publication Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -121,6 +129,8 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">NIT Rourkela</p>
             </div>
           </div>
+
+          
 
 
           {/* <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Local Organizing Committee</h2>
@@ -165,12 +175,12 @@ const OrganizingCommittee = () => {
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Women in Engineering Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. B D Sahoo</h3>
-              <p className="text-gray-950">NIT Rourkela</p>
+              {/* <h3 className="font-bold text-lg text-gray-950">Dr. B D Sahoo</h3>
+              <p className="text-gray-950">NIT Rourkela</p> */}
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Nibaran Das</h3>
-              <p className="text-gray-950">Jadavpur University, WB</p>
+              {/* <h3 className="font-bold text-lg text-gray-950">Dr. Nibaran Das</h3>
+              <p className="text-gray-950">Jadavpur University, WB</p> */}
             </div>
           </div>
         </div>
