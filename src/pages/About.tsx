@@ -7,9 +7,9 @@ const About = () => {
       <div className="glassmorphism p-8 rounded-xl">
         <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">About iSSSC 2025</h1>
 
-        <div className="prose max-w-none text-gray-700 mb-8">
+        <div className="prose max-w-none text-gray-700 mb-8 text-justify">
           <p className="mb-4">
-            Welcome to the 3rd edition of IEEE International Symposium on Sustainable Energy, Signal Processing, and Cyber Security (iSSSC 2025), hosted by the Department of Electrical and Electronics Engineering and the Department of Electronics and Communication Engineering, GIET University, Gunupur, Odisha, India, from November 06-08, 2025.
+            Welcome to the 3rd edition of IEEE International Symposium on Sustainable Energy, Signal Processing, and Cybersecurity (iSSSC 2025), hosted by the Department of Electrical and Electronics Engineering and the Department of Electronics and Communication Engineering, GIET University, Gunupur, Odisha, India, from November 06-08, 2025.
           </p>
           <p className="mb-4">
             Building on the remarkable success of its previous editions, iSSSC 2025 brings together a diverse community of academicians, researchers, industry professionals, and practitioners on a unified platform to explore advancements and challenges in sustainable energy systems, adaptive signal processing, and cybersecurity frameworks. This year's symposium expands its focus to include the pivotal role of Artificial Intelligence (AI) and Machine Learning (ML) in modernizing the power and energy industries, enabling automation, and strengthening cybersecurity mechanisms.
@@ -20,7 +20,7 @@ const About = () => {
               <li>Track 1: Prototyping and Funding Models</li>
               <li>Track 2: Sustainable Energy Technologies</li>
               <li>Track 3: Signal Processing Applications</li>
-              <li>Track 4: Cyber Security and Privacy</li>
+              <li>Track 4: Cybersecurity and Privacy</li>
               <li>Track 5: Smart Communication and Antenna</li>
               <li>Track 6: Interdisciplinary Case Studies</li>
             </ul>
@@ -43,16 +43,16 @@ const About = () => {
         <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Conference Objectives</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mb-8">
           <div className="rounded-lg overflow-hidden shadow-md self-start order-last md:order-first">
-            <AspectRatio ratio={16 / 9} className="max-h-[300px]">
+            <AspectRatio ratio={16 / 11} className="max-h-[300px]">
               <img
-                src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678"
+                src="/documents/conference.png"
                 alt="Research and innovation"
                 className="object-cover w-full h-full"
               />
             </AspectRatio>
           </div>
           <div>
-            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+            <ul className="list-disc pl-5 space-y-2 text-gray-700 text-justify">
               <li>To provide a platform for researchers and practitioners to share their latest findings and innovations</li>
               <li>To foster interdisciplinary collaboration between academia and industry</li>
               <li>To explore emerging technologies and their applications in sustainable energy, signal processing, and cyber security</li>
@@ -65,7 +65,7 @@ const About = () => {
         {/* GIET University */}
         <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">About GIET University</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mb-8">
-          <div className="prose max-w-none text-gray-700">
+          <div className="prose max-w-none text-gray-700 text-justify">
             <p className="mb-4">
               GIET University, Gunupur, Odisha, India (formerly known as Gandhi Institute of Engineering and Technology) was established by “Vidya Bharati Educational Trust,” in the year 1997. Since inception, the Trust promotes Technical Education in India with a motto of providing Quality Education in a highly disciplined and conducive environment with International Standards. GIET University attained autonomous status in the year 2017 and again added another gleaming feather to its cap with the conferment of the University Status through an act of Odisha Legislative Assembly and forthwith approved by UGC, New Delhi in 2018.
             </p>
@@ -85,15 +85,15 @@ const About = () => {
         <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">About the Department</h2>
         <div className="mb-8">
           <div className="rounded-lg overflow-hidden shadow-md mb-6">
-            <AspectRatio ratio={16 / 9} className="max-h-[520px]">
+            <AspectRatio ratio={2 / 1} className="max-h-[520px]">
               <img
-                src="/documents/r&dblock.jpg"
+                src="/documents/EE&EEE-dept.jpg"
                 alt="Electrical engineering department"
                 className="object-cover w-full h-full"
               />
             </AspectRatio>
           </div>
-          <div className="prose max-w-none text-gray-700">
+          <div className="prose max-w-none text-gray-700 text-justify">
             <p className="mb-4">
               The Department of Electrical and Electronics Engineering (EEE) at GIET University, Gunupur, was established in the academic year 2007–2008 with the goal of providing high-quality technical education to aspiring power engineers. The department is dedicated to nurturing an environment where students can reach their full potential and grow into principled, committed professionals.
             </p>
@@ -137,7 +137,7 @@ const About = () => {
               />
             </AspectRatio>
           </div>
-          <div className="prose max-w-none text-gray-700">
+          <div className="prose max-w-none text-gray-700 text-justify">
             <p>
             IEEE (Institute of Electrical and Electronics Engineers) is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. Through its publications, conferences, technology standards, and professional and educational activities, IEEE serves as a catalyst for technological innovation and excellence.
               </p>
@@ -149,3 +149,14 @@ const About = () => {
 };
 
 export default About;
+
+
+{/* <div className="rounded-lg overflow-hidden shadow-md mb-6 max-w-[640px] mx-auto">
+<AspectRatio ratio={16 / 9} className="max-h-[520px]">
+  <img
+    src="/documents/EE&EEE-dept.jpg"
+    alt="Electrical engineering department"
+    className="object-cover w-full h-full"
+  />
+</AspectRatio>
+</div> */}

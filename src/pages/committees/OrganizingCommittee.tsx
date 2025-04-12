@@ -8,7 +8,7 @@ const OrganizingCommittee = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">Organizing Committee</h1>
         
         <div className="prose max-w-none text-gray-700">
-          <p className="mb-8">
+          <p className="mb-8 text-justify">
             The Organizing Committee is responsible for planning and executing all aspects of the iSSSC 2025 conference. 
             The committee members have been carefully selected based on their expertise and experience in organizing 
             successful international conferences.
@@ -66,7 +66,7 @@ const OrganizingCommittee = () => {
             </div>
           </div>
           
-          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Honorary Chair(s)</h2>
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Honorary Chair</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
               <h3 className="font-bold text-lg text-gray-950">Dr. L M Pattnaik</h3>

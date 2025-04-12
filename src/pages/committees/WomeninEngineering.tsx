@@ -8,8 +8,8 @@ const WomeninEngineering = () => {
                     Women in Engineering Committee
                 </h1>
 
-                <div className="prose max-w-none text-gray-700">
-                    <p className="mb-8 text-justify">
+                <div className="prose max-w-none text-gray-700 text-justify">
+                    <p className="mb-8">
                         The Women in Engineering Committee comprises distinguished women researchers and academicians from across the country. Their expertise, leadership, and dedication play a pivotal role in shaping the conference agenda, promoting gender diversity, and inspiring the next generation of women in STEM fields.
                     </p>
 

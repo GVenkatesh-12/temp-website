@@ -9,7 +9,7 @@ const InternationalAdvisory = () => {
         </h1>
 
         <div className="prose max-w-none text-gray-700">
-          <p className="mb-8">
+          <p className="mb-8 text-justify">
             The International Advisory Board consists of renowned researchers
             and academicians from around the world who provide strategic
             guidance and advice for the conference. Their expertise helps shape

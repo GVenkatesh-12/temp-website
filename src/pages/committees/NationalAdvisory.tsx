@@ -8,7 +8,7 @@ const NationalAdvisory = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">National Advisory Board</h1>
         
         <div className="prose max-w-none text-gray-700">
-          <p className="mb-8">
+          <p className="mb-8 text-justify">
             The National Advisory Board consists of distinguished academicians and researchers from across India.
             They provide guidance on national research priorities, help establish links with Indian institutions, and ensure the
             conference addresses challenges relevant to the national context.
