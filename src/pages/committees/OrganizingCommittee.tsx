@@ -82,7 +82,7 @@ const OrganizingCommittee = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
               <h3 className="font-bold text-lg text-gray-950">Dr. P K Panigrahi</h3>
-              <p className="text-gray-950">Professor, GIETU Gunupur</p>
+              <p className="text-gray-950">Professor, GIET University</p>
             </div>
           </div>
           

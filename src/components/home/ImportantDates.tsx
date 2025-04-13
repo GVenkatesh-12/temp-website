@@ -18,7 +18,7 @@ const ImportantDates: React.FC = () => {
     },
     {
       event: "Camera Ready Submission",
-      date: "Coming Soon"
+      date: "August 10, 2025"
     },
     {
       event: "Conference Dates",
