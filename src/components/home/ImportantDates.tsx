@@ -6,19 +6,19 @@ const ImportantDates: React.FC = () => {
   const dates = [
     {
       event: "Paper Submission Deadline",
-      date: "June 30, 2025"
-    },
-    {
-      event: "Notification of Acceptance",
       date: "July 15, 2025"
     },
     {
-      event: "Final Paper Submission", 
-      date: "July 30, 2025"
+      event: "Notification of Acceptance",
+      date: "August 15, 2025"
     },
+    // {
+    //   event: "Final Paper Submission", 
+    //   date: "August 30, 2025"
+    // },
     {
       event: "Camera Ready Submission",
-      date: "August 10, 2025"
+      date: "August 30, 2025"
     },
     {
       event: "Conference Dates",
@@ -30,11 +30,11 @@ const ImportantDates: React.FC = () => {
     <section className="py-12 px-4 sm:px-6 max-w-7xl mx-auto">
       <h2 className="text-3xl font-bold text-center text-conference-navy mb-12">Important Dates</h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {dates.map((item, index) => (
           <div 
             key={index} 
-            className="glassmorphism p-6 rounded-lg text-center animate-fade-in"
+            className="glassmorphism p-5 rounded-lg text-center animate-fade-in"
             style={{ animationDelay: `${index * 100}ms` }}
           >
             <div className="flex justify-center mb-4">

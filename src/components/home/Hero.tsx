@@ -19,14 +19,14 @@ const Hero: React.FC = () => {
           </h2>
 
           <p className="text-white text-lg font-semibold mb-4 max-w-2xl text-justify mx-auto">
-            IEEE-iSSSC 2025 is the flagship conference of the IEEE India Council, hosted at GIET University under IEEE Bhubaneswar Subsection. This 3rd edition offers a platform for researchers from academia and industry to share insights, collaborate, and network. The event features keynotes, invited talks, industry exhibits, oral presentations, and a Graduate Research Forum to showcase innovative work.
+            The 2025 IEEE 3rd International Symposium on Sustainable Energy, Signal Processing, and Cybersecurity (iSSSC 2025) is a leading forum for researchers, engineers, and industry experts to share innovations, research, and challenges in these key interdisciplinary fields. The symposium promotes collaboration and idea exchange through keynote talks, technical presentations, and specialized workshops focused on the latest advancements and future trends.
           </p>
 
           {/* Button Group */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-[-12px] relative">
             {/* Learn More Button */}
-            <Link 
-              to="/about" 
+            <Link
+              to="/about"
               className="inline-flex items-center justify-center px-6 py-3 bg-conference-blue text-white rounded-md hover:bg-conference-dark-blue transition-colors shadow-md hover:shadow-lg"
             >
               Learn More
