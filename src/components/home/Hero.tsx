@@ -11,10 +11,10 @@ const Hero: React.FC = () => {
       <div className="relative w-full h-screen flex justify-center items-center">
         {/* Absolute Positioned Text Over Animation */}
         <div className="absolute z-10 max-w-4xl text-center p-8">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
             2025 IEEE 3rd International Symposium on Sustainable Energy, Signal Processing and Cybersecurity
           </h1>
-          <h2 className="text-xl md:text-2xl text-white font-semibold mb-1">
+          <h2 className="text-xl md:text-2xl text-white font-semibold mb-2">
             November 06 - 08, 2025, GIET University, Gunupur, Odisha
           </h2>
 

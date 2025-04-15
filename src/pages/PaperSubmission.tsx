@@ -56,7 +56,7 @@ const PaperSubmission = () => {
               The following instructions are given for the authors to submit their papers for the 2025 IEEE 3rd International Symposium on Sustainable Energy, Signal Processing and Cybersecurity (iSSSC).
             </p>
 
-            <h3 className="text-2xl font-semibold text-conference-blue mt-4 mb-2">Originality Of Submitted Papers:</h3>
+            <h3 className="text-2xl font-semibold text-conference-blue mt-4 mb-2">Originality of Submitted Papers:</h3>
             <p>
               Papers submitted to 2025 IEEE 3rd iSSSC shall contain original work by the author(s) that have not been published or submitted for publication elsewhere. The author(s) need to restrict the plagiarism of their paper within 20%.
             </p>
