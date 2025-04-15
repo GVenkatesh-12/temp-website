@@ -32,6 +32,7 @@ const NationalAdvisory = () => {
               { name: 'Dr Y R Sood', institution: 'NIT Hamirpur' },
               { name: 'Dr O.P. Sahu', institution: 'NIT Kurukshetra' },
               { name: 'Dr K. K. Sharma', institution: 'MNIT Jaipur' },
+              { name: 'Dr. Bidyadhar Subudhi', institution: 'NIT Warangal'},
               { name: 'Dr B B Pati', institution: 'VSSUT Odisha' },
               { name: 'Dr Ranjan Kumar Behera', institution: 'IIT Patna' },
               { name: 'Dr Biplab Bhattacharyya', institution: 'IIT (ISM) Dhanbad' },

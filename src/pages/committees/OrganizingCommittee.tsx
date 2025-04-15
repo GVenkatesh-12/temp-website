@@ -89,7 +89,7 @@ const OrganizingCommittee = () => {
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Technical Program Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. B D Sahoo</h3>
+              <h3 className="font-bold text-lg text-gray-950">Dr. Bibhudatta Sahoo</h3>
               <p className="text-gray-950">NIT Rourkela</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -125,7 +125,7 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Cardiff Unversity, UK</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. A K Swain</h3>
+              <h3 className="font-bold text-lg text-gray-950">Dr. Ayas Kanta Swain</h3>
               <p className="text-gray-950">NIT Rourkela</p>
             </div>
           </div>
@@ -172,16 +172,13 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">TCS Bhubaneswar</p>
             </div>
           </div>
-          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Women in Engineering Chair(s)</h2>
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Finance Chair</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              {/* <h3 className="font-bold text-lg text-gray-950">Dr. B D Sahoo</h3>
-              <p className="text-gray-950">NIT Rourkela</p> */}
+              <h3 className="font-bold text-lg text-gray-950">Dr. Srikant Misra</h3>
+              <p className="text-gray-950">GIET University</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              {/* <h3 className="font-bold text-lg text-gray-950">Dr. Nibaran Das</h3>
-              <p className="text-gray-950">Jadavpur University, WB</p> */}
-            </div>
+           
           </div>
         </div>
       </div>

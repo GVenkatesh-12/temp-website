@@ -15,27 +15,35 @@ const LocalAdvisory = () => {
                     <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Local Advisory Committee</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. M Murali Gopal</h3>
+                            <h3 className="font-bold text-lg text-gray-950">Dr. V S Devadas</h3>
                             <p className="text-gray-950">GIET University</p>
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Monoj Das</h3>
+                            <h3 className="font-bold text-lg text-gray-950">Dr. K Murali Babu</h3>
                             <p className="text-gray-950">GIET University</p>
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Kali Charan Rath</h3>
+                            <h3 className="font-bold text-lg text-gray-950">Dr. Manoj Das</h3>
                             <p className="text-gray-950">GIET University</p>
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Prof. Ashish Kumar Samal</h3>
+                            <h3 className="font-bold text-lg text-gray-950">Prof. Ashis Kumar Samal</h3>
                             <p className="text-gray-950">GIET University</p>
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Prativa Kar</h3>
+                            <h3 className="font-bold text-lg text-gray-950">Dr. Bibhu Prasad</h3>
                             <p className="text-gray-950">GIET University</p>
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Prof. Suman Mishra</h3>
+                            <h3 className="font-bold text-lg text-gray-950">Dr. Kalicharan Rath</h3>
+                            <p className="text-gray-950">GIET University</p>
+                        </div>
+                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+                            <h3 className="font-bold text-lg text-gray-950">Dr. Pativa Kar</h3>
+                            <p className="text-gray-950">GIET University</p>
+                        </div>
+                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+                            <h3 className="font-bold text-lg text-gray-950">Dr. Saumendra Das</h3>
                             <p className="text-gray-950">GIET University</p>
                         </div>
 
@@ -44,22 +52,6 @@ const LocalAdvisory = () => {
 
                     <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Organizing Committee</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Bibhu Prasad</h3>
-                            <p className="text-gray-950">GIET University</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Ajit Kumar Patro</h3>
-                            <p className="text-gray-950">GIET University</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Ami Kumar Patra</h3>
-                            <p className="text-gray-950">GIET University</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Tushar Kanta Panda</h3>
-                            <p className="text-gray-950">GIET University</p>
-                        </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
                             <h3 className="font-bold text-lg text-gray-950">Prof. Balaram Das</h3>
                             <p className="text-gray-950">GIET University</p>
@@ -74,18 +66,6 @@ const LocalAdvisory = () => {
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
                             <h3 className="font-bold text-lg text-gray-950">Prof. Sujit Kumar Patro</h3>
-                            <p className="text-gray-950">GIET University</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Manoj Kumar Panda</h3>
-                            <p className="text-gray-950">GIET University</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Jitendra Kumar</h3>
-                            <p className="text-gray-950">GIET University</p>
-                        </div>
-                        <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-                            <h3 className="font-bold text-lg text-gray-950">Dr. Ashish Tiwari</h3>
                             <p className="text-gray-950">GIET University</p>
                         </div>
 
