@@ -111,7 +111,7 @@ const About = () => {
           <div className="rounded-lg overflow-hidden shadow-md self-start">
             <AspectRatio ratio={16 / 9} className="max-h-[300px]">
               <img
-                src="/documents/gietu.jpg"
+                src="/documents/dept-1.jpg"
                 alt="University campus"
                 className="object-cover w-full h-full"
               />
@@ -123,7 +123,7 @@ const About = () => {
           <div className="rounded-lg overflow-hidden shadow-md self-start order-last md:order-first">
             <AspectRatio ratio={16 / 11} className="max-h-[350px]">
               <img
-                src="/documents/conference.png"
+                src="/documents/dept-2.jpg"
                 alt="Research and innovation"
                 className="object-cover w-full h-full"
               />
@@ -148,7 +148,7 @@ const About = () => {
           <div className="rounded-lg overflow-hidden shadow-md self-start">
             <AspectRatio ratio={16 / 9} className="max-h-[300px]">
               <img
-                src="/documents/gietu.jpg"
+                src="/documents/dept-3.jpg"
                 alt="University campus"
                 className="object-cover w-full h-full"
               />
