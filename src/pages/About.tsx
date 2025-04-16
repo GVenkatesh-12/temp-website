@@ -87,7 +87,7 @@ const About = () => {
           <div className="rounded-lg overflow-hidden shadow-md self-start order-last md:order-first">
             <AspectRatio ratio={16 / 11} className="max-h-[300px]">
               <img
-                src="/documents/EE&EEE-dept.jpg"
+                src="/documents/dept-3.jpg"
                 alt="Research and innovation"
                 className="object-cover w-full h-full"
               />
@@ -148,7 +148,7 @@ const About = () => {
           <div className="rounded-lg overflow-hidden shadow-md self-start">
             <AspectRatio ratio={16 / 9} className="max-h-[300px]">
               <img
-                src="/documents/dept-3.jpg"
+                src="/documents/dept-4.jpg"
                 alt="University campus"
                 className="object-cover w-full h-full"
               />

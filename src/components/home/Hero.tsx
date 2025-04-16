@@ -43,8 +43,9 @@ const Hero: React.FC = () => {
             <div className="relative">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="inline-flex items-center justify-center px-6 py-3 bg-conference-blue text-white rounded-[10px] hover:bg-conference-dark-blue transition-colors shadow-md hover:shadow-lg"
-              >
+                className="inline-flex items-center justify-center px-6 py-3 bg-[#E6BE00] text-white rounded-[10px] hover:bg-[#C9A700] transition-colors shadow-md hover:shadow-lg"
+
+                >
                 Previous Editions
                 <ChevronUp className="ml-2 h-4 w-4" />
               </button>
