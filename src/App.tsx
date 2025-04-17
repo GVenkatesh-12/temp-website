@@ -13,6 +13,7 @@ import Speakers from "./pages/Speakers";
 import AcceptedPapers from "./pages/AcceptedPapers";
 import Venue from "./pages/Venue";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 import ScrollToTop from "./components/ScrollToTop";
 import OrganizingCommittee from "./pages/committees/OrganizingCommittee";
 import InternationalAdvisory from "./pages/committees/InternationalAdvisory";
@@ -22,6 +23,7 @@ import IndustrialCollaboration from "./pages/committees/IndustrialCollaboration"
 import WomeninEngineering from "./pages/committees/WomeninEngineering";
 import LocalAdvisory from "./pages/committees/LocalAdvisory";
 import NotFound from "./pages/NotFound";
+
 
 const queryClient = new QueryClient();
 
@@ -42,6 +44,7 @@ const App = () => (
             <Route path="accepted-papers" element={<AcceptedPapers />} />
             <Route path="venue" element={<Venue />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="gallery" element={<Gallery />} />
             <Route path="committee">
               <Route path="organizing" element={<OrganizingCommittee />} />
               <Route path="international-advisory" element={<InternationalAdvisory />} />

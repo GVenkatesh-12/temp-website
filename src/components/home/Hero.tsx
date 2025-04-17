@@ -68,6 +68,12 @@ const Hero: React.FC = () => {
                   >
                     iSSSC 2022
                   </a>
+                  <a
+                    href="/gallery"
+                    className="block px-4 py-2 text-gray-950 hover:bg-blue-200 text-left"
+                  >
+                    Photo Gallery
+                  </a>
                 </div>
               )}
             </div>
