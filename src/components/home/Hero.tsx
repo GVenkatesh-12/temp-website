@@ -11,13 +11,12 @@ const Hero: React.FC = () => {
       <div className="relative w-full h-screen flex justify-center items-center">
         <div className="absolute z-10 max-w-4xl text-center p-4 sm:p-8 top-[6vh] sm:top-auto">
 
-        <h1 className="text-2xl sm:text-3xl lg:text-[2.6rem] lg:leading-[2.4rem] font-bold text-white mb-2 sm:mb-2 pt-4 sm:pt-6 lg:pt-3">
-  2025 IEEE 3rd International Symposium&nbsp;
-  <span className="hidden lg:inline"><br /></span>
-  on Sustainable Energy, Signal Processing&nbsp;
-  <span className="hidden lg:inline"><br /></span>
-  and Cybersecurity
+        <h1 className="text-2xl sm:text-3xl lg:text-[2.7rem] lg:leading-[2.6rem] font-bold text-white mb-2 sm:mb-2 pt-4 sm:pt-6 lg:pt-3">
+  2025 IEEE 3rd International<br className="hidden lg:inline" />
+  Symposium on Sustainable Energy,<br className="hidden lg:inline" />
+  Signal Processing and Cybersecurity
 </h1>
+
 
 
           <h2 className="text-lg sm:text-xl md:text-2xl text-white font-semibold mt-0 mb-2">
