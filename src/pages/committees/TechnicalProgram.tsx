@@ -139,7 +139,8 @@ const TechnicalProgram = () => {
               { name: "Dr. Jagannath Malik", affiliation: "IIT Patna" },
               { name: "Dr. Sujit K. Mandal", affiliation: "NIT Durgapur" },
               { name: "Dr. Anisha Kumari", affiliation: "KIIT Bhubaneswar" },
-              { name: "Dr. Sasmita Acharya", affiliation: "VSSUT Sambalpur" }
+              { name: "Dr. Sasmita Acharya", affiliation: "VSSUT Sambalpur" },
+              { name: "Dr. Raseswari Pradhan", affiliation: "VSSUT Sambalpur" }
             ].map((member, index) => (
               <div
                 key={index}

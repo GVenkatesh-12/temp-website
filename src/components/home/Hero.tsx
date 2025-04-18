@@ -68,15 +68,19 @@ const Hero: React.FC = () => {
                   >
                     iSSSC 2022
                   </a>
-                  <a
-                    href="/gallery"
-                    className="block px-4 py-2 text-gray-950 hover:bg-blue-200 text-left"
-                  >
-                    Photo Gallery
-                  </a>
+
+                  
                 </div>
               )}
             </div>
+            {/* 🌟 New Button Added Here */}
+  <Link
+    to="/gallery"
+    className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors shadow-md hover:shadow-lg"
+  >
+    Photo Gallery
+    <ArrowRight className="ml-2 h-4 w-4" />
+  </Link>
           </div>
         </div>
       </div>

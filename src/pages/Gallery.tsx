@@ -28,36 +28,41 @@ const Gallery = () => {
     },
     {
       id: 2,
-      src: "/documents/iSSSC Photos/2020_5.jpeg",
+      src: "/documents/iSSSC Photos/2022.jpeg",
       alt: "University campus during conference 2020"
     },
     {
       id: 3,
-      src: "/documents/iSSSC Photos/2020_4.jpeg",
+      src: "/documents/iSSSC Photos/2020_5.jpeg",
       alt: "Conference collaboration session 2020"
     },
     {
       id: 4,
-      src: "/documents/iSSSC Photos/2020_9.jpeg",
+      src: "/documents/iSSSC Photos/2020_4.jpeg",
       alt: "Research exhibition 2020"
     },
     {
       id: 5,
-      src: "/documents/iSSSC Photos/2020_3.jpeg", 
+      src: "/documents/iSSSC Photos/2020_9.jpeg", 
       alt: "Technical workshop 2020"
     },
     {
       id: 6,
-      src: "/documents/iSSSC Photos/2020_2.jpeg",
+      src: "/documents/iSSSC Photos/2020_3.jpeg",
       alt: "University campus during conference 2020"
     },
     {
       id: 7,
-      src: "/documents/iSSSC Photos/2020_7.jpeg",
+      src: "/documents/iSSSC Photos/2020_2.jpeg",
       alt: "Conference collaboration session 2020"
     },
     {
       id: 8,
+      src: "/documents/iSSSC Photos/2020_7.jpeg",
+      alt: "Research exhibition 2020"
+    },
+    {
+      id: 9,
       src: "/documents/iSSSC Photos/2020_6.jpeg",
       alt: "Research exhibition 2020"
     }

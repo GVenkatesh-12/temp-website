@@ -33,7 +33,7 @@ const OrganizingCommittee = () => {
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Patron(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. AVNL Sharma</h3>
+              <h3 className="font-bold text-lg text-gray-950">Dr. A V N L Sharma</h3>
               <p className="text-gray-950">Vice Chancellor, GIET University</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -45,7 +45,7 @@ const OrganizingCommittee = () => {
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Executive Steering Committee</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. KVS Hari</h3>
+              <h3 className="font-bold text-lg text-gray-950">Dr. K V S Hari</h3>
               <p className="text-gray-950">Director, Centre for Brain Research, IISC Bengaluru</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -77,7 +77,7 @@ const OrganizingCommittee = () => {
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">General Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. B B Biswal</h3>
+              <h3 className="font-bold text-lg text-gray-950">Dr. Bibhuti Bhusan Biswal</h3>
               <p className="text-gray-950">Vice Chancellor, OUTR Bhubaneswar</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -113,7 +113,7 @@ const OrganizingCommittee = () => {
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Conference Chair</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Prof. G R K D Satya Prasad</h3>
+              <h3 className="font-bold text-lg text-gray-950">Prof. G Satya Prasad</h3>
               <p className="text-gray-950">GIET University</p>
             </div>
           </div>
