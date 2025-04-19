@@ -155,6 +155,11 @@ const Gallery = () => {
       id: 17,
       src: "/documents/iSSSC Photos/2022_21.jpeg",
       alt: "Opening ceremony 2022"
+    },
+    {
+      id: 18,
+      src: "/documents/iSSSC Photos/2022_21.jpeg",
+      alt: "Opening ceremony 2022"
     }
   ];
 
