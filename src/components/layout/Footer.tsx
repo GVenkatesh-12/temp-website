@@ -12,7 +12,7 @@ const Footer = () => {
             {/* Logos Section */}
             <div className="mt-1 flex justify-start items-center space-x-6 mb-4">
               <Link to="/">
-              <img src="/documents/logo-22.svg" alt="Logo 2" className="h-[110px] w-[180px]" />
+                <img src="/documents/logo-22.svg" alt="Logo 2" className="h-[110px] w-[180px]" />
 
               </Link>
             </div>
@@ -66,6 +66,17 @@ const Footer = () => {
                 <a href="mailto:isssc2025@gmail.com" className="hover:text-white transition-colors">
                   isssc2025@gmail.com
                 </a>
+              </p>
+              <p className="mt-2">
+                <a
+                  href="https://www.giet.edu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  www.giet.edu
+                </a>
+
               </p>
             </address>
           </div>
