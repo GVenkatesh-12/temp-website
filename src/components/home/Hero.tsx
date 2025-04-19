@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <div className="absolute z-10 max-w-4xl text-center p-4 sm:p-8 top-[6vh] sm:top-auto">
 
         <h1 className="text-2xl sm:text-3xl lg:text-[2.7rem] lg:leading-[2.7rem] font-bold text-white mb-2 sm:mb-3 pt-4 sm:pt-6 lg:pt-3">
-  2025 IEEE 3rd International<br className="hidden lg:inline" />
+  2025 IEEE 3rd International <br className="hidden lg:inline" />
   Symposium on Sustainable Energy,<br className="hidden lg:inline" />
   Signal Processing and Cybersecurity
 </h1>

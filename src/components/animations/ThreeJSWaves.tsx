@@ -77,7 +77,7 @@ const VantaGlobe: React.FC = () => {
   }, []);
 
   // Define dynamic styles for the logos and conference text
-  const logoTopMargin = isMobile ? "7vh" : "10.2vh";
+  const logoTopMargin = isMobile ? "8vh" : "10.2vh";
   const conferenceTopMargin = isMobile ? "12.2vh" : "10.4vh";
   const conferenceFontSize = isMobile
     ? "clamp(12px, 2.5vw, 16px)"
