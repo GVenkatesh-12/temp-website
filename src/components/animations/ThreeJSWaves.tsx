@@ -122,7 +122,7 @@ const VantaGlobe: React.FC = () => {
         backgroundColor: "#23153d",
       }}
     >
-      {/* Responsive logos aligned at the top center */}
+      {/* Responsive logos aligned at the top center
       <div
         style={{
           position: "absolute",
@@ -154,7 +154,7 @@ const VantaGlobe: React.FC = () => {
           alt="Logo 3"
           style={{ width: "clamp(100px, 16vw, 172px)", height: "auto" }}
         />
-      </div>
+      </div> */}
       {/* Conference ID styled differently for mobile vs. desktop */}
       <div style={conferenceStyle}>Conference ID - 66652</div>
     </div>
