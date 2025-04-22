@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <div className="relative w-full h-screen flex justify-center items-center">
         <div className="absolute z-10 max-w-4xl text-center p-4 sm:p-8 top-[6vh] sm:top-auto">
           
-          <h1 className="text-2xl sm:text-3xl lg:text-[2.6rem] lg:leading-[2.7rem] font-bold text-white mb-2 sm:mb-2 pt-4 sm:pt-6 lg:pt-8">
+          <h1 className="text-2xl sm:text-3xl lg:text-[2.6rem] lg:leading-[2.7rem] font-bold text-white mb-2 sm:mb-2 pt-4 sm:pt-6 lg:pt-5">
             2025 IEEE 3rd International <br className="hidden lg:inline" />
             Symposium on Sustainable Energy,<br className="hidden lg:inline" />
             Signal Processing and Cybersecurity
@@ -24,12 +24,12 @@ const Hero: React.FC = () => {
             ELECTRICAL AND ELECTRONICS ENGINEERING
           </p>
 
-          <p className="text-white text-base sm:text-lg font-semibold mb-4 max-w-2xl text-justify mx-auto px-2 sm:px-0">
+          <p className="text-white text-base sm:text-lg font-semibold mb-2 max-w-2xl text-justify mx-auto px-2 sm:px-0">
             The 2025 IEEE 3rd International Symposium on Sustainable Energy, Signal Processing, and Cybersecurity (iSSSC 2025) is a leading forum for researchers, engineers, and industry experts to share innovations, research, and challenges in these key interdisciplinary fields. The symposium promotes collaboration and idea exchange through keynote talks, technical presentations, and specialized workshops focused on the latest advancements and future trends.
           </p>
 
           {/* Reduced margin top on the button section */}
-          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-center mt-2 sm:mt-4 px-2 sm:px-0">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-center mt-2 sm:mt-3 px-2 sm:px-0">
             <Link
               to="/about"
               className="w-full sm:w-auto inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 bg-conference-blue text-white rounded-md hover:bg-conference-dark-blue transition-colors shadow-md hover:shadow-lg text-sm sm:text-base"
