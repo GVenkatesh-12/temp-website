@@ -117,7 +117,7 @@ const VantaGlobe: React.FC = () => {
         top: 0,
         left: 0,
         width: "100%",
-        height: "100vh",
+        height: "102vh",
         overflow: "hidden",
         backgroundColor: "#23153d",
       }}

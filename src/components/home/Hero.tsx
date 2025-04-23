@@ -6,11 +6,11 @@ const Hero: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-[50vh] py-4 sm:py-6">
+    <div className="relative flex flex-col items-center justify-center min-h-[100vh] py-4 sm:py-6">
 
       <div className="w-full flex justify-center items-center px-4 sm:px-6 mt-12 md:mt-16">
         <div className="relative z-10 max-w-4xl text-center">
-          <h1 className="text-[1.4rem] sm:text-[2.7rem] lg:text-5xl font-bold text-white mb-2 md:mb-3 leading-tight">
+          <h1 className="text-[1.4rem] sm:text-[2.7rem] lg:text-5xl font-bold text-white mb-2 md:mb-3 leading-tight md:-mt-11">
             2025 IEEE 3rd International <br className="hidden lg:inline" />
             Symposium on Sustainable Energy, <br className="hidden lg:inline" />
             Signal Processing and Cybersecurity
