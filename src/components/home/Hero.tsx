@@ -10,10 +10,10 @@ const Hero: React.FC = () => {
 
       <div className="w-full flex justify-center items-center px-4 sm:px-6 mt-12 md:mt-16">
         <div className="relative z-10 max-w-4xl text-center">
-          <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white mb-2 md:mb-3 leading-tight">
-            <span className="inline-block">2025 IEEE 3rd International</span>{' '}
-            <span className="inline-block">Symposium on Sustainable Energy,</span>{' '}
-            <span className="inline-block">Signal Processing and Cybersecurity</span>
+          <h1 className="text-[1.4rem] sm:text-[2.7rem] lg:text-5xl font-bold text-white mb-2 md:mb-3 leading-tight">
+            2025 IEEE 3rd International <br className="hidden lg:inline" />
+            Symposium on Sustainable Energy, <br className="hidden lg:inline" />
+            Signal Processing and Cybersecurity
           </h1>
 
           <h2 className="text-lg sm:text-xl md:text-2xl text-white font-semibold mb-2">
