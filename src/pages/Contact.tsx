@@ -42,7 +42,7 @@ const Contact = () => {
                 Phone
               </h2>
               <p className="mb-2">
-                <strong>Dr. P K Panigrahi, GIETU, Gunupur</strong>
+                <strong>Dr. Pratap Kumar Panigrahi, GIETU, Gunupur</strong>
                 <br />
                 +91-7008189716 / +91-9861432688
               </p>
@@ -62,7 +62,7 @@ const Contact = () => {
                 Phone
               </h2>
               <p className="mb-2">
-                <strong>Dr. B D Sahoo, NIT Rourkela </strong>
+                <strong>Dr. Bibhudatta Sahoo, NIT Rourkela </strong>
                 <br />
                 +91-9337938766
               </p>
