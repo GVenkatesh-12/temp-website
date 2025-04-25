@@ -97,16 +97,12 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Jadavpur University, WB</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Pravat Kumar Roy</h3>
-              <p className="text-gray-950">NIT Rourkela</p>
+              <h3 className="font-bold text-lg text-gray-950">Dr. Niranjan Ray</h3>
+              <p className="text-gray-950">KIITS Bhubaneswar</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
               <h3 className="font-bold text-lg text-gray-950">Dr. Ranjan Kumar Pradhan</h3>
               <p className="text-gray-950">OUTR Bhubaneswar</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Dr. Niranjan Ray</h3>
-              <p className="text-gray-950">KIITS Bhubaneswar</p>
             </div>
           </div>
 
