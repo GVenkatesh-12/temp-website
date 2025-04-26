@@ -19,7 +19,7 @@ const InternationalAdvisory = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
-              <h3 className="font-bold text-lg text-gray-950">Prof. Muhammad H. Rashid</h3>
+              <h3 className="font-bold text-lg text-gray-950">Dr. Muhammad H. Rashid</h3>
               <p className="text-gray-950">Florida Polytechnic University, USA</p>
             </div>
 
