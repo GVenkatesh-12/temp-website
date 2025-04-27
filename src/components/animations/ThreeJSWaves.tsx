@@ -12,20 +12,23 @@ const VantaGlobe: React.FC = () => {
   const vantaEffectRef = useRef<any>(null);
   const [isMobile, setIsMobile] = useState<boolean>(false);
 
-  // Function to initialize the VANTA cells effect
+  // Function to initialize the VANTA waves effect
   const initVanta = () => {
     if (!containerRef.current) return;
-    vantaEffectRef.current = window.VANTA.CELLS({
+    vantaEffectRef.current = window.VANTA.WAVES({
       el: containerRef.current,
       THREE: THREE,
-      mouseControls: true,
-      touchControls: true,
+      mouseControls: false,
+      touchControls: false,
       gyroControls: false,
       minHeight: 200.0,
       minWidth: 200.0,
       scale: 1.0,
-      color1: 0x70728,
-      color2: 0x93eeb,
+      scaleMobile: 1.0,
+      shininess: 15.00,
+      waveSpeed: 0.80,
+      waveHeight: 15.00,
+      color: 0x150234,
     });
   };
 
@@ -38,7 +41,7 @@ const VantaGlobe: React.FC = () => {
       if (!window.VANTA) {
         const script = document.createElement("script");
         script.src =
-          "https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.cells.min.js";
+          "https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js";
         script.async = true;
         script.onload = initVanta;
         document.body.appendChild(script);
