@@ -1,31 +1,89 @@
 import React, { useEffect, useRef, useState } from "react";
+import * as THREE from "three";
+
+declare global {
+  interface Window {
+    VANTA: any;
+  }
+}
 
 const VantaGlobe: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const vantaEffectRef = useRef<any>(null);
   const [isMobile, setIsMobile] = useState<boolean>(false);
 
+  // Function to initialize the VANTA cells effect
+  const initVanta = () => {
+    if (!containerRef.current) return;
+    vantaEffectRef.current = window.VANTA.CELLS({
+      el: containerRef.current,
+      THREE: THREE,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      color1: 0x70728,
+      color2: 0x93eeb,
+    });
+  };
+
   useEffect(() => {
+    // Check if the device is mobile
     const checkMobile = () => window.innerWidth <= 768;
     setIsMobile(checkMobile());
 
+    if (!checkMobile()) {
+      if (!window.VANTA) {
+        const script = document.createElement("script");
+        script.src =
+          "https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.cells.min.js";
+        script.async = true;
+        script.onload = initVanta;
+        document.body.appendChild(script);
+      } else {
+        initVanta();
+      }
+    }
+
     const handleResize = () => {
-      setIsMobile(checkMobile());
+      const nowMobile = window.innerWidth <= 768;
+      setIsMobile(nowMobile);
+
+      if (nowMobile && vantaEffectRef.current) {
+        vantaEffectRef.current.destroy();
+        vantaEffectRef.current = null;
+      }
+      if (!nowMobile && !vantaEffectRef.current) {
+        initVanta();
+      }
+      if (vantaEffectRef.current) {
+        vantaEffectRef.current.resize();
+      }
     };
 
     window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      if (vantaEffectRef.current) {
+        vantaEffectRef.current.destroy();
+      }
     };
   }, []);
 
+  // Define dynamic styles for the logos and conference text
   const logoTopMargin = isMobile ? "8vh" : "10.2vh";
   const conferenceTopMargin = isMobile ? "12.2vh" : "10.4vh";
   const conferenceFontSize = isMobile
     ? "clamp(12px, 2.5vw, 16px)"
     : "clamp(14px, 2vw, 20px)";
+  // New left margin for mobile conference text
   const conferenceLeftMarginMobile = "5vw";
 
+  // Conditional style for the "Conference ID" text:
+  // For mobile, rotate it 90deg to display vertically in the left corner with increased margin.
   const conferenceStyle = isMobile
     ? {
         position: "absolute" as const,
