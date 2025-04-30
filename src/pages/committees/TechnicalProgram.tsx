@@ -135,12 +135,21 @@ const TechnicalProgram = () => {
               { name: "Dr. Suman Samui", affiliation: "NIT Durgapur" },
               { name: "Dr. Tanmay Kumar Behera", affiliation: "NIT Mizoram" },
               { name: "Dr. Bharati Mishra", affiliation: "IIIT Bhubaneswar" },
-              { name: "Dr. Manoj Kumar Patra", affiliation: "LNMIIT, Jaipur" },
+              { name: "Dr. Manoj Kumar Patra", affiliation: "LNMIIT Jaipur" },
               { name: "Dr. Jagannath Malik", affiliation: "IIT Patna" },
               { name: "Dr. Sujit K. Mandal", affiliation: "NIT Durgapur" },
               { name: "Dr. Anisha Kumari", affiliation: "KIIT Bhubaneswar" },
               { name: "Dr. Sasmita Acharya", affiliation: "VSSUT Sambalpur" },
-              { name: "Dr. Raseswari Pradhan", affiliation: "VSSUT Sambalpur" }
+              { name: "Dr. Raseswari Pradhan", affiliation: "VSSUT Sambalpur" },
+              { name: "Dr. Nimai Charan Patel", affiliation: "NIT Sikkim" },
+              { name: "Dr. Shreeya Swagatika Sahoo", affiliation: "BIT Mesra" },
+              { name: "Dr. Niranjay Nayak", affiliation: "SOA University Bhubaneswar" },
+              { name: "Dr. Deepak Kumar Lal", affiliation: "VSSUT Sambalpur" },
+              { name: "Dr. Anasua Sarkar", affiliation: "Jadavpur University, WB" },
+              { name: "Dr. Prangya Mohanty", affiliation: "VSSUT Sambalpur" },
+              { name: "Dr. Ashim Kumar Biswas", affiliation: "UEM Kolkata" },
+              { name: "Dr. Sharmistha Roy", affiliation: "Usha Martin University, Ranchi" },
+              { name: "Dr. Suvasini Panigrahi", affiliation: "VSSUT Sambalpur" }
             ].map((member, index) => (
               <div
                 key={index}
