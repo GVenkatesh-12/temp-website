@@ -88,9 +88,6 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
           <p>© {new Date().getFullYear()} IEEE-iSSSC 2025. All rights reserved.</p>
-          <p className="mt-1">
-            Organized by GIET University in technical co-sponsorship with IEEE
-          </p>
         </div>
       </div>
     </footer>
