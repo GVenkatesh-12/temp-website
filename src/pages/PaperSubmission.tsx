@@ -92,7 +92,7 @@ const PaperSubmission = () => {
             </a>
 
             <a
-              href="https://www.ieee.org/conferences/publishing/templates.html"
+              href="/documents/iSSSC 2025 CFP.pdf"
               target="_blank"
               className="flex items-center gap-2 px-3 sm:px-4 py-2.5 sm:py-3 bg-conference-blue text-white text-sm sm:text-base rounded-md hover:bg-conference-dark-blue transition-colors shadow-md w-full"
             >
