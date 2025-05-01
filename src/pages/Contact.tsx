@@ -94,6 +94,24 @@ const Contact = () => {
                 +91-0987654321
               </p> */}
             </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+              <h2 className="text-xl font-bold text-conference-blue mb-4 flex items-center">
+                <Phone className="h-5 w-5 mr-2" />
+                Phone
+              </h2>
+              <p className="mb-2">
+                <strong>Dr. Niranjan Ray, KIIT Bhubaneswar</strong>
+                <br />
+                +91-9861361486
+              </p>
+              {/* <p>
+                <strong>Technical Support:</strong>
+                <br />
+                +91-0987654321
+              </p> */}
+            </div>
+
           </div>
 
 
