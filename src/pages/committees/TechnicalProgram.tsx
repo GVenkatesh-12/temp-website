@@ -149,7 +149,8 @@ const TechnicalProgram = () => {
               { name: "Dr. Prangya Mohanty", affiliation: "VSSUT Sambalpur" },
               { name: "Dr. Ashim Kumar Biswas", affiliation: "UEM Kolkata" },
               { name: "Dr. Sharmistha Roy", affiliation: "Usha Martin University, Ranchi" },
-              { name: "Dr. Suvasini Panigrahi", affiliation: "VSSUT Sambalpur" }
+              { name: "Dr. Suvasini Panigrahi", affiliation: "VSSUT Sambalpur" },
+              { name: "Dr. Sudhakar Sahu", affiliation: "KIIT Bhubaneswar" }
             ].map((member, index) => (
               <div
                 key={index}
