@@ -110,7 +110,8 @@ const tracksData = [
       "AI and ML Interaction in Robotics",
       "Teleoperation and Remote Health Robotics",
       "Medical Robotics",
-      "Autonomous Vehicle (Land, aerial and Underwater)"
+      "Autonomous Vehicle (Land, aerial and Underwater)",
+      "Human Robot Interaction"
     ]
   }
 ];
