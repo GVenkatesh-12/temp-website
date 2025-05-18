@@ -158,16 +158,16 @@ const TechnicalProgram = () => {
               { name: "Dr. Srinivas Sethi", affiliation: "IGIT Sarang" },
               { name: "Dr. Ramaprabha Ramabadran", affiliation: "SSN College of Engineering, Chennai " },
               { name: "Dr. Prakash Kumar Ray", affiliation: "OUTR Bhubaneswar" },
-              { name: "Dr Tanmay Kumar Behera", affiliation: "NIT Mizoram" },
-              { name: "Dr Hemant Kumar", affiliation: "NIT Sikkim" },
-              { name: "Dr Bharti Koul", affiliation: "NIT Hamirpur" },
-              { name: "Dr Prajna Parimita Dash", affiliation: "BIT Mesra, Ranchi" },
-              { name: "Dr Vishal H Shah", affiliation: "BIT Mesra, Ranchi" },
+              { name: "Dr. Tanmay Kumar Behera", affiliation: "NIT Mizoram" },
+              { name: "Dr. Hemant Kumar", affiliation: "NIT Sikkim" },
+              { name: "Dr. Bharti Koul", affiliation: "NIT Hamirpur" },
+              { name: "Dr. Prajna Parimita Dash", affiliation: "BIT Mesra, Ranchi" },
+              { name: "Dr. Vishal H Shah", affiliation: "BIT Mesra, Ranchi" },
               { name: "Sitanshu Sekhar Sahu", affiliation: "BIT Mesra, Ranchi" },
-              { name: "Dr Saikant Chakraborty", affiliation: "BIT Mesra, Ranchi" },
-              { name: "Dr K S Patnaik", affiliation: "BIT Mesra, Ranchi" },
-              { name: "Dr Jit Mukherjee", affiliation: "BIT Mesra, Ranchi" },
-              { name: "Dr Subrajeet Mohapatra", affiliation: "BIT Mesra, Ranchi" }
+              { name: "Dr. Saikant Chakraborty", affiliation: "BIT Mesra, Ranchi" },
+              { name: "Dr. K S Patnaik", affiliation: "BIT Mesra, Ranchi" },
+              { name: "Dr. Jit Mukherjee", affiliation: "BIT Mesra, Ranchi" },
+              { name: "Dr. Subrajeet Mohapatra", affiliation: "BIT Mesra, Ranchi" }
             ].map((member, index) => (
               <div
                 key={index}
