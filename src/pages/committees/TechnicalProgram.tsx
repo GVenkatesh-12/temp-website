@@ -172,7 +172,8 @@ const TechnicalProgram = () => {
               { name: "Dr. S T P Srinivas", affiliation: "BITS Hyderabad" },
               { name: "Dr. Haripriya Venuguanti", affiliation: "NIT Raipur" },
               { name: "Dr. Albert Alexander S", affiliation: "VIT Vellore" },
-              { name: "Dr. Neha Vinayak", affiliation: "BITS Pillani" }
+              { name: "Dr. Neha Vinayak", affiliation: "BITS Pilani" },
+              { name: "Dr. Ravi Kadlimatti", affiliation: "BITS Pilani" }
             ].map((member, index) => (
               <div
                 key={index}

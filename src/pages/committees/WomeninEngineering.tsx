@@ -41,7 +41,7 @@ const WomeninEngineering = () => {
                             { name: "Dr. Bharti Bakshi Kaul", affiliation: "NIT Hamirpur" },
                             { name: "Dr. Anisha Kumari", affiliation: "KIIT Bhubaneswar" },
                             { name: "Dr. Sasmita Dash", affiliation: "GIET University Gunupur" },
-                            { name: "Dr. Neha Vinayak", affiliation: "BITS Pillani" }
+                            { name: "Dr. Neha Vinayak", affiliation: "BITS Pilani" }
                         ].map((member, index) => (
                             <div
                                 key={index}

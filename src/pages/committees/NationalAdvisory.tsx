@@ -6,16 +6,16 @@ const NationalAdvisory = () => {
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-5xl threejs-overlay">
       <div className="glassmorphism p-8 rounded-xl">
         <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">National Advisory Board</h1>
-        
+
         <div className="prose max-w-none text-gray-700">
           <p className="mb-8 text-justify">
             The National Advisory Board consists of distinguished academicians and researchers from across India.
             They provide guidance on national research priorities, help establish links with Indian institutions, and ensure the
             conference addresses challenges relevant to the national context.
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            
+
             {[
               { name: 'Dr. Nikhil R Pal', institution: 'ISI Calcutta' },
               { name: 'Dr. Sivaji Chakravorti', institution: 'Jadavpur University' },
@@ -32,7 +32,7 @@ const NationalAdvisory = () => {
               { name: 'Dr. Y R Sood', institution: 'NIT Hamirpur' },
               { name: 'Dr. O.P. Sahu', institution: 'NIT Kurukshetra' },
               { name: 'Dr. K. K. Sharma', institution: 'MNIT Jaipur' },
-              { name: 'Dr. Bidyadhar Subudhi', institution: 'NIT Warangal'},
+              { name: 'Dr. Bidyadhar Subudhi', institution: 'NIT Warangal' },
               { name: 'Dr. B B Pati', institution: 'VSSUT Odisha' },
               { name: 'Dr. Ranjan Kumar Behera', institution: 'IIT Patna' },
               { name: 'Dr. Biplab Bhattacharyya', institution: 'IIT (ISM) Dhanbad' },
@@ -53,6 +53,7 @@ const NationalAdvisory = () => {
               { name: 'Dr. S. Ravi Chandra', institution: 'NIT Warangal' },
               { name: 'Dr. Anil Kumar Singh', institution: 'MNNIT Allahabad' },
               { name: 'Dr. Debi Prasad Das', institution: 'Scientist, IMMT Bhubaneswar' },
+              { name: 'Dr. Tridibesh Nag', institution: 'IEEE Kolkata Section' }
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
                 <h3 className="font-bold text-lg text-gray-950">{member.name}</h3>
