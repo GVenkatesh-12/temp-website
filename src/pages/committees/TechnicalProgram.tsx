@@ -175,7 +175,9 @@ const TechnicalProgram = () => {
               { name: "Dr. Neha Vinayak", affiliation: "BITS Pilani" },
               { name: "Dr. Ravi Kadlimatti", affiliation: "BITS Pilani" },
               { name: "Dr. Sudarshan Swain", affiliation: "BITS Pilani" },
-              { name: "Dr. Amrita Mishra", affiliation: "IIT Bengaluru" },
+              { name: "Dr. Amrita Mishra", affiliation: "IIIT Bengaluru" },
+              { name: "Dr. Ranjan Kumar Behera", affiliation: "IIIT Ranchi" },
+              { name: "Dr. Sunandita Debnath", affiliation: "IIIT Vadodara" }
             ].map((member, index) => (
               <div
                 key={index}
