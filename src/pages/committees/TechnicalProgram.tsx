@@ -183,8 +183,18 @@ const TechnicalProgram = () => {
               { name: "Dr. Abdul Wahid", affiliation: "IIIT Dharwad" },
               { name: "Dr. Hrudananda Pradhan", affiliation: "VSSUT Sambalpur" },
               { name: "Dr. Mohana Kumar S", affiliation: "MSRIT Bengaluru" },
-              { name: "Dr. Arunanshu Mahapatra", affiliation: "VSSUT Sambalpur" }
-
+              { name: "Dr. Arunanshu Mahapatra", affiliation: "VSSUT Sambalpur" },
+              { name: "Dr. Priyank Khare", affiliation: "IIIT Ranchi" },
+              { name: "Dr. Pradeep Kumar Gajendra Bhale", affiliation: "IIIT Kancheepuram" },
+              { name: "Dr. Rashmi Panda", affiliation: "IIIT Ranchi" },
+              { name: "Dr. B Sujatha", affiliation: "MSRIT, Bengaluru" },
+              { name: "Dr. P Rangababu", affiliation: "IIIT Kurnool" },
+              { name: "Dr. Rajesh Kolluri", affiliation: "IIIT Kancheepuram" },
+              { name: "Dr. Sanjeev Jadav", affiliation: "IIIT Allahabad" },
+              { name: "Dr. Ravi Kumar Mandava", affiliation: "IIIT Kancheepuram" },
+              { name: "Dr. Ramesh K Bhukhe", affiliation: "IIIT Allahabad" },
+              { name: "Dr. Vinay Kumar Tiwari", affiliation: "IIIT Kurnool" },
+              { name: "Dr. Sidharth R", affiliation: "IIIT Dharwad" }
             ].map((member, index) => (
               <div
                 key={index}
