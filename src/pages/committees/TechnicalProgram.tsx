@@ -205,7 +205,8 @@ const TechnicalProgram = () => {
               { name: "Dr. Imon Mukherjee", affiliation: "IIIT Kota" },
               { name: "Dr. Amit Ranjan Azad", affiliation: "IIIT Kalyani" },
               { name: "Dr. Amit Kumar", affiliation: "IIIT Kota" },
-              { name: "Dr. Rajanish Kumar Singh", affiliation: "IIIT Nagpur" }
+              { name: "Dr. Rajanish Kumar Singh", affiliation: "IIIT Nagpur" },
+              { name: "Dr. Rudranarayan Pradhan", affiliation: "OUTR Bhubaneswar" }
             ].map((member, index) => (
               <div
                 key={index}
