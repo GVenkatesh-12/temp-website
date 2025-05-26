@@ -210,8 +210,13 @@ const TechnicalProgram = () => {
               { name: "Dr. Mangesh Kose", affiliation: "IIIT Nagpur" },
               { name: "Dr. Shankar Bhattachajee", affiliation: "IIIT Nagpur" },
               { name: "Dr. Khushboo Jain", affiliation: "IIIT Nagpur" },
-              { name: "Dr. Gourav Dubey", affiliation: "IIITM Gwalior" }
-
+              { name: "Dr. Gourav Dubey", affiliation: "IIITM Gwalior" },
+              { name: "Dr. Sanjeet Kumar Nayak", affiliation: "IIIT Kancheepuram" },
+              { name: "Dr. Rashmi A Pandhare", affiliation: "IIIT Nagpur" },
+              { name: "Dr. Mangesh Kose", affiliation: "IIIT Nagpur" },
+              { name: "Dr. Nagendra Kushwaha", affiliation: "IIIT Pune" },
+              { name: "Dr. Bhoopesh Singh Bhati", affiliation: "IIIT Sonepat" },
+              { name: "Dr. Sushant Kumar", affiliation: "IIIT Pune" }
             ].map((member, index) => (
               <div
                 key={index}
