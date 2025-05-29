@@ -224,7 +224,11 @@ const TechnicalProgram = () => {
               { name: "Dr. Jitendra K Samriya", affiliation: "IIIT Sonepat" },
               { name: "Dr. Harsha Vasudev", affiliation: "IIITDM Kurnool" },
               { name: "Dr. Sonam Maurya", affiliation: "IIIT Pune" },
-              { name: "Dr. Sourabh Jain", affiliation: "IIIT Sonepat" }
+              { name: "Dr. Sourabh Jain", affiliation: "IIIT Sonepat" },
+              { name: "Dr. Vinay Pathak", affiliation: "IIIT Sonepat" },
+              { name: "Dr. Parijata Majumdar", affiliation: "IIIT Agartala" },
+              { name: "Dr. Anoop Jacob Thomas", affiliation: "IIIT Trichy" },
+              { name: "Dr. Sushmita Sharma", affiliation: "IIIT Agartala" }
             ].map((member, index) => (
               <div
                 key={index}
