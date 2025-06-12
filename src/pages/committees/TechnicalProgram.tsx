@@ -234,7 +234,10 @@ const TechnicalProgram = () => {
               { name: "Dr. Akarsh K Nair", affiliation: "IIIT Kottayam" },
               { name: "Dr. Milind Thomas", affiliation: "IIIT Kottayam" },
               { name: "Dr. Om Prakash Singh", affiliation: "IIIT Bhagalpur" },
-              { name: "Dr. Jeena Thomas", affiliation: "IIIT Kottayam" }
+              { name: "Dr. Jeena Thomas", affiliation: "IIIT Kottayam" },
+              { name: "Dr. Jagan Bihari Padhy", affiliation: "VIT Vellore" },
+              { name: "Dr. Rahul Chaurasia", affiliation: "IIIT Bhopal" },
+              { name: "Dr. Arun Kumar", affiliation: "NIT Rourkela" }
             ].map((member, index) => (
               <div
                 key={index}
