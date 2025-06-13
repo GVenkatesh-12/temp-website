@@ -6,14 +6,14 @@ const OrganizingCommittee = () => {
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-5xl threejs-overlay">
       <div className="glassmorphism p-8 rounded-xl">
         <h1 className="text-3xl md:text-4xl font-bold text-conference-navy mb-6">Organizing Committee</h1>
-        
+
         <div className="prose max-w-none text-gray-700">
           <p className="mb-8 text-justify">
-            The Organizing Committee is responsible for planning and executing all aspects of the iSSSC 2025 conference. 
-            The committee members have been carefully selected based on their expertise and experience in organizing 
+            The Organizing Committee is responsible for planning and executing all aspects of the iSSSC 2025 conference.
+            The committee members have been carefully selected based on their expertise and experience in organizing
             successful international conferences.
           </p>
-          
+
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Chief Patron(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -29,7 +29,7 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Director General, GIET University</p>
             </div>
           </div>
-          
+
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Patron(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -41,7 +41,7 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Registrar, GIET University</p>
             </div>
           </div>
-          
+
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Executive Steering Committee</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -65,7 +65,7 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Dean SOET, GIET University</p>
             </div>
           </div>
-          
+
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Honorary Chair</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -73,7 +73,7 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Pro-Chancellor, GIET University</p>
             </div>
           </div>
-          
+
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">General Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -85,7 +85,7 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">Professor, GIET University</p>
             </div>
           </div>
-          
+
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Technical Program Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -113,7 +113,7 @@ const OrganizingCommittee = () => {
               <p className="text-gray-950">GIET University</p>
             </div>
           </div>
-          
+
           <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Publication Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
@@ -126,7 +126,7 @@ const OrganizingCommittee = () => {
             </div>
           </div>
 
-          
+
 
 
           {/* <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Local Organizing Committee</h2>
@@ -157,7 +157,7 @@ const OrganizingCommittee = () => {
             </div>
           </div> */}
 
-<h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Industrial Track Chair(s)</h2>
+          <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Industrial Track Chair(s)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
               <h3 className="font-bold text-lg text-gray-950">Dr. Debabrata Nayak</h3>
@@ -174,10 +174,17 @@ const OrganizingCommittee = () => {
               <h3 className="font-bold text-lg text-gray-950">Dr. Srikant Misra</h3>
               <p className="text-gray-950">GIET University</p>
             </div>
-           
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Tutorial chair</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+            <h3 className="font-bold text-lg text-gray-950">Dr. Arun Kumar</h3>
+            <p className="text-gray-950">NIT Rourkela</p>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
