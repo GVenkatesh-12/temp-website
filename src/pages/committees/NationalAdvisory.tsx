@@ -46,7 +46,7 @@ const NationalAdvisory = () => {
               { name: 'Dr. B D Sahoo', institution: 'NIT Rourkela' },
               { name: 'Dr. Nibaran Das', institution: 'Jadavpur University' },
               { name: 'Dr. Dipti Saxena', institution: 'MNIT Jaipur' },
-              { name: 'Dr. Saroj Kumar Meher', institution: 'IIIT Bangalore' },
+              { name: 'Dr. Saroj Kumar Meher', institution: 'ISI Bengaluru' },
               { name: 'Dr. Nitin Singh', institution: 'MNNIT Allahabad' },
               { name: 'Dr. Sanjay Kumar Parida', institution: 'IIT Patna' },
               { name: 'Dr. Sanjeev Kumar Singh', institution: 'MANIT Bhopal' },

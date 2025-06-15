@@ -176,10 +176,14 @@ const OrganizingCommittee = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Tutorial chair</h2>
+        <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Tutorial chair(s)</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
             <h3 className="font-bold text-lg text-gray-950">Dr. Arun Kumar</h3>
+            <p className="text-gray-950">NIT Rourkela</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+            <h3 className="font-bold text-lg text-gray-950">Dr. Puneet Kumar Jain</h3>
             <p className="text-gray-950">NIT Rourkela</p>
           </div>
         </div>
