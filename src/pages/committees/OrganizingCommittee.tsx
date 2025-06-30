@@ -187,6 +187,16 @@ const OrganizingCommittee = () => {
             <p className="text-gray-950">NIT Rourkela</p>
           </div>
         </div>
+        <h2 className="text-2xl font-bold text-conference-blue mt-8 mb-4">Women in Engineering Chair</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-conference-light-blue">
+            <h3 className="font-bold text-lg text-gray-950">Dr. Vandana Bhattacharjee</h3>
+            <p className="text-gray-950">BIT Mesra</p>
+          </div>
+
+        </div>
+
+
       </div>
 
     </div>
