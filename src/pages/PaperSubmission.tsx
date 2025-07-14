@@ -117,7 +117,7 @@ const PaperSubmission = () => {
           <ul className="space-y-2 sm:space-y-3 text-gray-700 mb-6 sm:mb-8">
             <li className="flex items-start gap-2 sm:gap-3 text-sm sm:text-base">
               <Info className="h-4 sm:h-5 w-4 sm:w-5 text-conference-blue flex-shrink-0 mt-1" />
-              <span><strong>Full Paper Submission Date (Deadline):</strong> 15 July 2025</span>
+              <span><strong>Full Paper Submission Date (Deadline):</strong> <span className = "line-through decoration-2">15 July 2025</span></span> <span className="text-red-600 font-bold">31 July 2025</span>
             </li>
             <li className="flex items-start gap-2 sm:gap-3 text-sm sm:text-base">
               <Info className="h-4 sm:h-5 w-4 sm:w-5 text-conference-blue flex-shrink-0 mt-1" />

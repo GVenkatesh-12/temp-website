@@ -6,7 +6,7 @@ const ImportantDates: React.FC = () => {
   const dates = [
     {
       event: "Paper Submission Deadline",
-      date: "July 15, 2025"
+      date: "July 31, 2025"
     },
     {
       event: "Notification of Acceptance",
@@ -41,7 +41,7 @@ const ImportantDates: React.FC = () => {
               <Calendar className="h-8 w-8 text-conference-blue" />
             </div>
             <h3 className="text-xl font-semibold text-conference-blue mb-2">{item.event}</h3>
-            <p className="text-gray-700">{item.date}</p>
+            <p className={index === 0 ? "text-red-500 font-bold" : "text-gray-700"}>{item.date}</p>
           </div>
         ))}
       </div>
