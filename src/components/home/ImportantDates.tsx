@@ -6,7 +6,7 @@ const ImportantDates: React.FC = () => {
   const dates = [
     {
       event: "Paper Submission Deadline",
-      date: "August 15, 2025"
+      date: "August 22, 2025"
     },
     {
       event: "Notification of Acceptance",
