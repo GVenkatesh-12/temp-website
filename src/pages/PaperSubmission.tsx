@@ -137,7 +137,7 @@ const PaperSubmission = () => {
             <p className="mb-2 sm:mb-4">
               For any queries regarding paper submission, please contact: {' '}
               <a href="mailto:issc2025@gmail.com" className="text-conference-blue hover:underline">
-                issc2025@gmail.com
+                isssc2025@gmail.com
               </a>
             </p>
             <p className="mb-2 sm:mb-4">
