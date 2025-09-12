@@ -47,8 +47,11 @@ const Navbar = () => {
             <Link to="/paper-submission" className={`nav-link ${isActive('/paper-submission') ? 'active' : ''}`}>
               Call for Papers
             </Link>
-            <Link to="/registration" className={`nav-link ${isActive('/registration') ? 'active' : ''}`}>
+            <Link to="/registration" className={`nav-link ${isActive('/registration') ? 'active' : ''} relative`}>
               Registration
+              <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full animate-pulse shadow-sm">
+                NEW
+              </span>
             </Link>
 
             {/* Committee Dropdown */}
@@ -172,10 +175,13 @@ const Navbar = () => {
             </Link>
             <Link
               to="/registration"
-              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-conference-light-blue"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-conference-light-blue relative"
               onClick={() => setIsOpen(false)}
             >
               Registration
+              <span className="absolute top-1 right-2 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full animate-pulse shadow-sm">
+                NEW
+              </span>
             </Link>
 
             {/* Committee Dropdown Mobile */}
