@@ -11,7 +11,7 @@ const ImportantDates: React.FC = () => {
     },
     {
       event: "Notification of Acceptance",
-      date: "September 15, 2025"
+      date: "September 18, 2025"
     },
     // {
     //   event: "Final Paper Submission", 
