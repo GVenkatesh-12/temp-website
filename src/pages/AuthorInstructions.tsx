@@ -123,7 +123,7 @@ const AuthorInstructions = () => {
       <div className="glassmorphism p-8 rounded-xl">
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-conference-navy mb-4">
-            Instructions to Authors for Final Camera-Ready Article Preparation
+            Instructions to Authors for Final Camera-Ready Paper Preparation
           </h1>
           <p className="text-lg text-gray-600 mb-8">
             Follow these step-by-step instructions to prepare your camera-ready paper for iSSSC 2025

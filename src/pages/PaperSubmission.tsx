@@ -21,7 +21,7 @@ const PaperSubmission = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 transform -skew-x-12 animate-shine-continuous"></div>
           <div className="relative flex items-center space-x-3">
-            <span>Instructions to Authors for Final Camera-Ready Article Preparation</span>
+            <span>Instructions to Authors for Final Camera-Ready Paper Preparation</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </div>
         </button>
