@@ -171,7 +171,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/paper-submission"
-              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-conference-light-blue"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-conference-light-blue relative"
               onClick={() => setIsOpen(false)}
             >
               Call for Papers
