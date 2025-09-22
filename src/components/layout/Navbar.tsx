@@ -46,6 +46,9 @@ const Navbar = () => {
             </Link>
             <Link to="/paper-submission" className={`nav-link ${isActive('/paper-submission') ? 'active' : ''}`}>
               Call for Papers
+              <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full animate-pulse shadow-sm">
+                NEW
+              </span>
             </Link>
             <Link to="/registration" className={`nav-link ${isActive('/registration') ? 'active' : ''} relative`}>
               Registration

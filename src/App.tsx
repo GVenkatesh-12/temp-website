@@ -8,6 +8,7 @@ import { Layout } from "./components/layout/Layout";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import PaperSubmission from "./pages/PaperSubmission";
+import AuthorInstructions from "./pages/AuthorInstructions";
 import Registration from "./pages/Registration";
 import Speakers from "./pages/Speakers";
 import AcceptedPapers from "./pages/AcceptedPapers";
@@ -39,6 +40,7 @@ const App = () => (
             <Route index element={<Index />} />
             <Route path="about" element={<About />} />
             <Route path="paper-submission" element={<PaperSubmission />} />
+            <Route path="author-instructions" element={<AuthorInstructions />} />
             <Route path="registration" element={<Registration />} />
             <Route path="speakers" element={<Speakers />} />
             <Route path="accepted-papers" element={<AcceptedPapers />} />

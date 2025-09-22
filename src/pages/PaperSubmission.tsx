@@ -1,10 +1,32 @@
 
 import React from 'react';
-import { FileText, Upload, Check, Info } from 'lucide-react';
+import { FileText, Upload, Check, Info, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const PaperSubmission = () => {
+  const navigate = useNavigate();
+
+  const handleAuthorInstructions = () => {
+    navigate('/author-instructions');
+  };
+
   return (
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-5xl threejs-overlay">
+      {/* Author Instructions Button */}
+      <div className="flex justify-center mb-8">
+        <button
+          onClick={handleAuthorInstructions}
+          className="group relative overflow-hidden bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300"
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 transform -skew-x-12 animate-shine-continuous"></div>
+          <div className="relative flex items-center space-x-3">
+            <span>Instructions to Authors for Final Camera-Ready Article Preparation</span>
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+          </div>
+        </button>
+      </div>
+
       <div className="glassmorphism p-8 rounded-xl">
         <div className="prose max-w-none text-gray-700">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-conference-navy mb-4 sm:mb-6">
