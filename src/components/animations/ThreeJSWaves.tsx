@@ -156,7 +156,7 @@ const VantaGlobe: React.FC = () => {
         />
       </div>
       {/* Conference ID styled differently for mobile vs. desktop */}
-      <div style={conferenceStyle}>Conference ID - 66652</div>
+      <div style={conferenceStyle}>Conference ID - 66652<br/>(Hybrid Mode)</div>
     </div>
   );
 };
