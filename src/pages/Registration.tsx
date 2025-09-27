@@ -121,10 +121,10 @@ const Registration = () => {
                 <span className="text-conference-blue font-semibold mr-2">•</span>
                 <span>Author registration fee includes- Registration kit, conference Lunch.</span>
               </li>
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <span className="text-conference-blue font-semibold mr-2">•</span>
                 <span>Rs. 2500 (including GST) will be charged for other accompanying persons.</span>
-              </li>
+              </li> */}
               <li className="flex items-start">
                 <span className="text-conference-blue font-semibold mr-2">•</span>
                 <span><strong className="font-bold text-red-600">Final Registration Deadline: 30.09.2025</strong></span>
