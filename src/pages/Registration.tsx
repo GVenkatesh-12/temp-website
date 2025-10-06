@@ -127,7 +127,7 @@ const Registration = () => {
               </li> */}
               <li className="flex items-start">
                 <span className="text-conference-blue font-semibold mr-2">•</span>
-                <span><strong className="font-bold text-red-600">Final Registration Deadline: 05.10.2025</strong></span>
+                <span><strong className="font-bold text-red-600">Final Registration Deadline: 10.10.2025</strong></span>
               </li>
             </ul>
           </div>
