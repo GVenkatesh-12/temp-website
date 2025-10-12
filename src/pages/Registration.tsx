@@ -107,10 +107,6 @@ const Registration = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-conference-blue font-semibold mr-2">•</span>
-                <span className="font-bold text-red-600">All registration fees are inclusive of 18% GST</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-conference-blue font-semibold mr-2">•</span>
                 <span>Extra Pages beyond 6 are not allowed.</span>
               </li>
               <li className="flex items-start">
