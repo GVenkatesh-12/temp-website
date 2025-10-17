@@ -40,17 +40,19 @@ const Speakers = () => {
       id: 5,
       name: "Prof. Peter Han Joo Chong",
       title: "Associate Head of School (Research)",
-      affiliation: "Auckland University of Technology, Computer and Mathematical Science, New Zealand",
+      subtitle: "School of Engineering, Computer and Mathematical Sciences",
+      affiliation: "Auckland University of Technology, New Zealand",
       image: "/documents/speaker_5.jpg",
       description: "Associate Head of School (Research) at Auckland University of Technology, specializing in computer and mathematical sciences."
     },
     {
       id: 6,
-      name: "Prof. G G Md Nawaz Ali",
-      title: "Department of Computer Science and Information Systems",
-      affiliation: "Bradley University, Peoria, USA",
+      name: "Dr. G. G. Md. Nawaz Ali",
+      title: "Assistant Professor and Curriculum Committee Chair",
+      subtitle: "Dept. of Computer Science and Information Systems",
+      affiliation: "Bradley University, USA",
       image: "/documents/speaker_6.jpg",
-      description: "Professor in the Department of Computer Science and Information Systems at Bradley University, Peoria, USA, with expertise in computer science and information systems."
+      description: "Assistant Professor and Curriculum Committee Chair in the Department of Computer Science and Information Systems at Bradley University, USA."
     }
   ];
 
@@ -106,7 +108,7 @@ const Speakers = () => {
           ))}
         </div>
         
-        <div className="bg-gradient-to-r from-conference-light-blue to-conference-sky p-8 rounded-xl text-center">
+        {/* <div className="bg-gradient-to-r from-conference-light-blue to-conference-sky p-8 rounded-xl text-center">
           <h2 className="text-2xl font-bold text-conference-blue mb-4">
             More Distinguished Speakers Coming Soon
           </h2>
@@ -114,7 +116,7 @@ const Speakers = () => {
             We are in the process of confirming additional keynote speakers from leading institutions worldwide. 
             Please check back for updates as we continue to expand our lineup of distinguished presenters.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
