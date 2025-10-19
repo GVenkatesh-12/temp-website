@@ -12,8 +12,10 @@ const AcceptedPapers = () => {
       day: "Day 1 - November 06, 2025",
       sessions: [
         {
-          time: "10:30 AM – 12:30 PM",
-          sessions: []
+          time: "09:00 AM – 12:30 PM",
+          sessions: [
+            { name: "Registration and Inaugural Ceremony", papers: [] }
+          ]
         },
         {
           time: "2:30 PM – 4:30 PM",
@@ -85,7 +87,9 @@ const AcceptedPapers = () => {
         },
         {
           time: "5:30 PM – 7:30 PM",
-          sessions: []
+          sessions: [
+            { name: "Valedictory Session", papers: [] }
+          ]
         }
       ]
     }
@@ -349,7 +353,9 @@ const AcceptedPapers = () => {
                               searchResults.timeIndex === timeIndex && 
                               searchResults.sessionIndex === sessionIndex
                                 ? 'bg-green-100 border-green-300 shadow-md' 
-                                : 'bg-gray-50 border-gray-200 hover:shadow-sm'
+                                : session.papers.length === 0 
+                                  ? 'bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200 shadow-sm' 
+                                  : 'bg-gray-50 border-gray-200 hover:shadow-sm'
                             }`}
                           >
                             <h4 className={`font-semibold mb-3 text-center text-sm sm:text-base ${
@@ -358,7 +364,9 @@ const AcceptedPapers = () => {
                               searchResults.timeIndex === timeIndex && 
                               searchResults.sessionIndex === sessionIndex
                                 ? 'text-green-800' 
-                                : 'text-conference-blue'
+                                : session.papers.length === 0
+                                  ? 'text-blue-800'
+                                  : 'text-conference-blue'
                             }`}>
                               {session.name}
                               {hasSearched && searchResults && 
@@ -367,21 +375,33 @@ const AcceptedPapers = () => {
                                searchResults.sessionIndex === sessionIndex && (
                                 <span className="block text-xs text-green-600 mt-1">Your Session</span>
                               )}
+                              {session.papers.length === 0 && (
+                                <span className="block text-xs text-blue-600 mt-1">Special Event</span>
+                              )}
                             </h4>
-                            <div className="flex flex-wrap gap-1.5 sm:gap-2 justify-center">
-                              {session.papers.map((paperId, paperIndex) => (
-                                <span
-                                  key={paperIndex}
-                                  className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 ${
-                                    hasSearched && searchResults && searchResults.paperId === paperId
-                                      ? 'bg-green-500 text-white shadow-lg transform scale-110 ring-2 ring-green-300'
-                                      : 'bg-conference-light-blue text-conference-navy hover:bg-conference-blue hover:text-white'
-                                  }`}
-                                >
-                                  {paperId}
-                                </span>
-                              ))}
-                            </div>
+                            {session.papers.length > 0 ? (
+                              <div className="flex flex-wrap gap-1.5 sm:gap-2 justify-center">
+                                {session.papers.map((paperId, paperIndex) => (
+                                  <span
+                                    key={paperIndex}
+                                    className={`px-2 py-1 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 ${
+                                      hasSearched && searchResults && searchResults.paperId === paperId
+                                        ? 'bg-green-500 text-white shadow-lg transform scale-110 ring-2 ring-green-300'
+                                        : 'bg-conference-light-blue text-conference-navy hover:bg-conference-blue hover:text-white'
+                                    }`}
+                                  >
+                                    {paperId}
+                                  </span>
+                                ))}
+                              </div>
+                            ) : (
+                              <div className="text-center py-2">
+                                <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">
+                                  <Calendar className="h-3 w-3" />
+                                  Special Event
+                                </div>
+                              </div>
+                            )}
                           </div>
                         ))}
                       </div>
