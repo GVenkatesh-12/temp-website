@@ -126,6 +126,9 @@ const Navbar = () => {
             </Link>
             <Link to="/accepted-papers" className={`nav-link ${isActive('/accepted-papers') ? 'active' : ''}`}>
               Accepted Papers
+              <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full animate-pulse shadow-sm">
+                NEW
+              </span>
             </Link>
             <Link to="/venue" className={`nav-link ${isActive('/venue') ? 'active' : ''}`}>
               Venue
@@ -265,10 +268,13 @@ const Navbar = () => {
             </Link>
             <Link
               to="/accepted-papers"
-              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-conference-light-blue"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:bg-conference-light-blue relative"
               onClick={() => setIsOpen(false)}
             >
               Accepted Papers
+              <span className="absolute top-1 right-2 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full animate-pulse shadow-sm">
+                NEW
+              </span>
             </Link>
             <Link
               to="/venue"
