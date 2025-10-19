@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { Download, Calendar, Clock, MapPin, Search, X, CheckCircle } from 'lucide-react';
+import { Download, Calendar, Clock, MapPin, Search, X, CheckCircle, User } from 'lucide-react';
 
 const AcceptedPapers = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -283,7 +283,7 @@ const AcceptedPapers = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             <div className="flex items-start gap-3">
               <div className="bg-conference-blue p-2 rounded-lg">
-                <Calendar className="h-5 w-5 text-white" />
+                <User className="h-5 w-5 text-white" />
               </div>
               <div>
                 <p className="font-bold text-conference-navy text-sm sm:text-base">General Chair</p>
