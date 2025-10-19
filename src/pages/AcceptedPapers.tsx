@@ -52,14 +52,14 @@ const AcceptedPapers = () => {
           sessions: [
             { name: "Session-IVA", papers: [310, 366, 388, 433, 529, 627, 708, 736, 739] },
             { name: "Session-IVB", papers: [49, 60, 186, 283, 304, 521, 655, 656, 661] },
-            { name: "Session-IVC", papers: [358, 359, 402, 421, 445, 466, 490, 513] },
+            { name: "Session-IVC", papers: [198,358, 359, 402, 421, 445, 466, 490, 513] },
             { name: "Session-IVD", papers: [625, 633, 637, 646, 674, 712, 729, 730, 733, 754] }
           ]
         },
         {
           time: "5:30 PM – 7:30 PM",
           sessions: [
-            { name: "Session-VA", papers: [756, 760, 779, 798, 799, 838, 872, 892] },
+            { name: "Session-VA", papers: [723,756, 760, 779, 798, 799, 838, 872, 892] },
             { name: "Session-VB", papers: [907, 921, 923, 935, 963, 966, 975, 990, 1002] },
             { name: "Session-VC", papers: [1008, 1012, 1030, 1048, 1072, 1081, 1087, 1094] }
           ]
@@ -74,7 +74,7 @@ const AcceptedPapers = () => {
           sessions: [
             { name: "Session-VIA", papers: [696, 716, 738, 876, 1006, 1018, 1042, 1051, 1111] },
             { name: "Session-VIB", papers: [299, 383, 398, 420, 491, 778, 972] },
-            { name: "Session-VIC", papers: [54, 56, 140, 212, 217, 375, 623, 650, 657] }
+            { name: "Session-VIC", papers: [54, 56, 140,200, 212, 217, 375, 623, 650, 657] }
           ]
         },
         {
