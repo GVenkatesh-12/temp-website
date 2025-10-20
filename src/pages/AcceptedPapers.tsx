@@ -358,7 +358,7 @@ const AcceptedPapers = () => {
                                   : 'bg-gray-50 border-gray-200 hover:shadow-sm'
                             }`}
                           >
-                            <h4 className={`font-semibold mb-3 text-center text-sm sm:text-base ${
+                            <h4 className={`font-bold mb-3 text-center text-base sm:text-lg ${
                               hasSearched && searchResults && 
                               searchResults.dayIndex === dayIndex && 
                               searchResults.timeIndex === timeIndex && 
@@ -374,9 +374,6 @@ const AcceptedPapers = () => {
                                searchResults.timeIndex === timeIndex && 
                                searchResults.sessionIndex === sessionIndex && (
                                 <span className="block text-xs text-green-600 mt-1">Your Session</span>
-                              )}
-                              {session.papers.length === 0 && (
-                                <span className="block text-xs text-blue-600 mt-1">Special Event</span>
                               )}
                             </h4>
                             {session.papers.length > 0 ? (
@@ -396,10 +393,6 @@ const AcceptedPapers = () => {
                               </div>
                             ) : (
                               <div className="text-center py-2">
-                                <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">
-                                  <Calendar className="h-3 w-3" />
-                                  Special Event
-                                </div>
                               </div>
                             )}
                           </div>
