@@ -29,7 +29,7 @@ const AcceptedPapers = () => {
           time: "5:30 PM – 7:30 PM",
           sessions: [
             { name: "Session-IIA", papers: [1, 14, 68, 124, 163, 178, 197, 202, 203, 250] },
-            { name: "Session-IIB", papers: [44, 84, 88, 128, 131, 134, 156, 157, 161, 175] },
+            { name: "Session-IIB", papers: [44, 84, 128, 131, 134, 156, 157, 161, 175] },
             { name: "Session-IIC", papers: [216, 219, 220, 221, 233, 253, 291, 319, 332, 350] }
           ]
         }
