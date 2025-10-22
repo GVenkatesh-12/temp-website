@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { Download, Calendar, Clock, MapPin, Search, X, CheckCircle, User } from 'lucide-react';
+import { Download, Calendar, Clock, MapPin, Search, X, CheckCircle, User, FileText } from 'lucide-react';
 
 const AcceptedPapers = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -171,6 +171,15 @@ const AcceptedPapers = () => {
     document.body.removeChild(link);
   };
 
+  const handleDownloadPPTTemplate = () => {
+    const link = document.createElement('a');
+    link.href = '/documents/ISSSC_PPT_FORMAT.pptx';
+    link.download = 'ISSSC_PPT_FORMAT.pptx';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       <div className="container mx-auto px-3 py-6 sm:px-4 md:px-6 lg:px-8 max-w-7xl">
@@ -181,13 +190,22 @@ const AcceptedPapers = () => {
               Paper Presentation Schedule
             </h1>
             <p className="text-base sm:text-lg text-gray-600 mb-6">IEEE iSSSC 2025 - November 06-08, 2025</p>
-            <button
-              onClick={handleDownloadSchedule}
-              className="inline-flex items-center gap-2 bg-conference-blue hover:bg-conference-navy text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
-            >
-              <Download className="h-4 w-4 sm:h-5 sm:w-5" />
-              <span className="text-sm sm:text-base">Download Schedule PDF</span>
-            </button>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <button
+                onClick={handleDownloadSchedule}
+                className="inline-flex items-center gap-2 bg-conference-blue hover:bg-conference-navy text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
+              >
+                <Download className="h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-sm sm:text-base">Download Schedule PDF</span>
+              </button>
+              <button
+                onClick={handleDownloadPPTTemplate}
+                className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
+              >
+                <FileText className="h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-sm sm:text-base">Download PPT Template</span>
+              </button>
+            </div>
           </div>
         
         {/* Search Bar */}
