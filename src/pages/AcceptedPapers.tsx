@@ -444,17 +444,50 @@ const AcceptedPapers = () => {
           ))}
         </div>
 
-        {/* Additional Information */}
-        {/* <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-6">
-          <h3 className="text-lg font-semibold text-yellow-700 mb-2">Important Notes</h3>
-          <ul className="space-y-2 text-gray-700">
-            <li>• All times are in Indian Standard Time (IST)</li>
-            <li>• Each paper presentation is allocated 15 minutes including Q&A</li>
-            <li>• Authors should arrive 10 minutes before their scheduled session</li>
-            <li>• Technical support will be available at each venue</li>
-            <li>• For any schedule changes, please check the conference website regularly</li>
-          </ul>
-        </div> */}
+        {/* Guidelines for Paper Presentation */}
+        <div className="mt-8 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-2xl p-6 shadow-lg">
+          <h3 className="text-xl font-bold text-conference-navy mb-6 text-center flex items-center justify-center gap-2">
+            <File className="h-6 w-6 text-conference-blue" />
+            Guidelines for Paper Presentation
+          </h3>
+          <div className="space-y-4 text-gray-700">
+            <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm">
+              <p className="text-base leading-relaxed">
+                Authors and speakers are encouraged to use this provided format for their presentation.
+              </p>
+            </div>
+            <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm">
+              <p className="text-base leading-relaxed">
+                The presentation duration per paper is <span className="font-semibold text-conference-blue">10 minutes</span>, followed by <span className="font-semibold text-conference-blue">5 minutes of Q&A</span> maximum.
+              </p>
+            </div>
+            <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm">
+              <p className="text-base leading-relaxed">
+                Please prepare your presentation to convey more of your work, the importance of the work, the approach to address the problem, the outcomes, and the observations.
+              </p>
+            </div>
+            <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm">
+              <p className="text-base leading-relaxed">
+                Use a <span className="font-semibold text-conference-blue">large font (size 18+)</span> and adequate color contrast.
+              </p>
+            </div>
+            <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm">
+              <p className="text-base leading-relaxed">
+                Limit slide text — use bullet points with no more than <span className="font-semibold text-conference-blue">six main points per slide</span>; keep sentences concise.
+              </p>
+            </div>
+            <div className="bg-white p-4 rounded-xl border border-blue-100 shadow-sm">
+              <p className="text-base leading-relaxed">
+                Speakers should report to the venue the day of their presentation <span className="font-semibold text-conference-blue">at least 30 minutes before</span> their scheduled presentation time.
+              </p>
+            </div>
+            <div className="bg-red-50 p-4 rounded-xl border border-red-200 shadow-sm">
+              <p className="text-base leading-relaxed text-red-800 font-semibold">
+                ⚠️ No sale pitches, promotions, advertisements, etc. are allowed!
+              </p>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
