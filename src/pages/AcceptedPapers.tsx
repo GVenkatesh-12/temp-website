@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { Download, Calendar, Clock, MapPin, Search, X, CheckCircle, User, FileText } from 'lucide-react';
+import { Download, Calendar, Clock, MapPin, Search, X, CheckCircle, User, FileText, File } from 'lucide-react';
 
 const AcceptedPapers = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -22,14 +22,14 @@ const AcceptedPapers = () => {
           sessions: [
             { name: "Session-IA", papers: [189, 210, 214, 238, 242, 257, 303, 326, 331] },
             { name: "Session-IB", papers: [10, 85, 246, 517, 670, 686, 692] },
-            { name: "Session-IC", papers: [6, 57, 67, 237, 287, 294, 320, 373, 432, 638] }
+            { name: "Session-IC", papers: [6, 57, 67, 237, 287, 294, 320, 373, 432, 638,675] }
           ]
         },
         {
           time: "5:30 PM – 7:30 PM",
           sessions: [
             { name: "Session-IIA", papers: [1, 14, 68, 124, 163, 178, 197, 202, 203, 250] },
-            { name: "Session-IIB", papers: [44, 84, 128, 131, 134, 156, 157, 161, 175] },
+            { name: "Session-IIB", papers: [44, 84, 128, 131, 134, 156, 157, 161, 175,889] },
             { name: "Session-IIC", papers: [216, 219, 220, 221, 233, 253, 291, 319, 332, 350] }
           ]
         }
@@ -43,7 +43,7 @@ const AcceptedPapers = () => {
           sessions: [
             { name: "Session-IIIA", papers: [447, 516, 520, 565, 566, 569, 603, 609, 611, 685] },
             { name: "Session-IIIB", papers: [709, 717, 741, 787, 843, 908, 949] },
-            { name: "Session-IIIC", papers: [675, 711, 816, 861, 914, 962, 1003, 1046, 1083, 1099] },
+            { name: "Session-IIIC", papers: [711, 816, 861, 914, 962, 1003, 1046, 1083, 1099] },
             { name: "Session-IIID", papers: [543, 546, 574, 584, 599, 604, 606, 615, 616, 619, 624] }
           ]
         },
@@ -72,7 +72,7 @@ const AcceptedPapers = () => {
         {
           time: "10:30 AM – 12:30 PM",
           sessions: [
-            { name: "Session-VIA", papers: [696, 716, 738, 876, 1006, 1018, 1042, 1051, 1111] },
+            { name: "Session-VIA", papers: [173,696, 716, 738, 876, 920, 1006, 1018, 1042, 1051, 1111] },
             { name: "Session-VIB", papers: [299, 383, 398, 420, 491, 778, 972] },
             { name: "Session-VIC", papers: [54, 56, 140,200, 212, 217, 375, 623, 650, 657] }
           ]
@@ -180,6 +180,15 @@ const AcceptedPapers = () => {
     document.body.removeChild(link);
   };
 
+  const handleDownloadGuidelines = () => {
+    const link = document.createElement('a');
+    link.href = '/documents/Guidelines for Paper Presentation.docx';
+    link.download = 'Guidelines for Paper Presentation.docx';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       <div className="container mx-auto px-3 py-6 sm:px-4 md:px-6 lg:px-8 max-w-7xl">
@@ -204,6 +213,13 @@ const AcceptedPapers = () => {
               >
                 <FileText className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span className="text-sm sm:text-base">Download PPT Template</span>
+              </button>
+              <button
+                onClick={handleDownloadGuidelines}
+                className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
+              >
+                <File className="h-4 w-4 sm:h-5 sm:w-5" />
+                <span className="text-sm sm:text-base">Guidelines for Paper Presentation</span>
               </button>
             </div>
           </div>
