@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { Download, Calendar, Clock, MapPin, Search, X, CheckCircle, User, FileText, File } from 'lucide-react';
+import { Calendar, Clock, MapPin, Search, X, CheckCircle, User, FileText, File } from 'lucide-react';
 
 const AcceptedPapers = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -162,15 +162,6 @@ const AcceptedPapers = () => {
     setHasSearched(false);
   };
 
-  const handleDownloadSchedule = () => {
-    const link = document.createElement('a');
-    link.href = '/documents/ISSSC_SCHEDULE 2025 .pdf';
-    link.download = 'ISSSC_SCHEDULE_2025.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   const handleDownloadPPTTemplate = () => {
     const link = document.createElement('a');
     link.href = '/documents/ISSSC_PPT_FORMAT.pptx';
@@ -200,13 +191,6 @@ const AcceptedPapers = () => {
             </h1>
             <p className="text-base sm:text-lg text-gray-600 mb-6">IEEE iSSSC 2025 - November 06-08, 2025</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <button
-                onClick={handleDownloadSchedule}
-                className="inline-flex items-center gap-2 bg-conference-blue hover:bg-conference-navy text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
-              >
-                <Download className="h-4 w-4 sm:h-5 sm:w-5" />
-                <span className="text-sm sm:text-base">Download Schedule PDF</span>
-              </button>
               <button
                 onClick={handleDownloadPPTTemplate}
                 className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
