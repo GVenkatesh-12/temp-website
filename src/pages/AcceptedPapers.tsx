@@ -20,7 +20,7 @@ const AcceptedPapers = () => {
         {
           time: "2:30 PM – 4:30 PM",
           sessions: [
-            { name: "Session-IA", papers: [189, 210, 214, 238, 242, 257, 303, 326, 331] },
+            { name: "Session-IA", papers: [189, 210, 214, 238, 242, 257, 303, 326, 331, 965] },
             { name: "Session-IB", papers: [10, 85, 246, 517, 670, 686, 692] },
             { name: "Session-IC", papers: [6, 57, 67, 237, 287, 294, 320, 373, 432, 638,675] }
           ]
@@ -51,8 +51,8 @@ const AcceptedPapers = () => {
           time: "2:30 PM – 4:30 PM",
           sessions: [
             { name: "Session-IVA", papers: [310, 366, 388, 433, 529, 627, 708, 736, 739] },
-            { name: "Session-IVB", papers: [49, 60, 186, 283, 304, 521, 655, 656, 661] },
-            { name: "Session-IVC", papers: [198,358, 359, 402, 421, 445, 466, 490, 513] },
+            { name: "Session-IVB", papers: [49, 60, 186, 283, 296, 521, 655, 656, 661] },
+            { name: "Session-IVC", papers: [198,358, 359, 402, 421, 445, 466, 490, 513, 1101] },
             { name: "Session-IVD", papers: [625, 633, 637, 646, 674, 712, 729, 730, 733, 754] }
           ]
         },
@@ -73,7 +73,7 @@ const AcceptedPapers = () => {
           time: "10:30 AM – 12:30 PM",
           sessions: [
             { name: "Session-VIA", papers: [173,696, 716, 738, 876, 920, 1006, 1018, 1042, 1051, 1111] },
-            { name: "Session-VIB", papers: [299, 383, 398, 420, 491, 778, 972] },
+            { name: "Session-VIB", papers: [299, 304, 383, 398, 420, 491, 778, 972] },
             { name: "Session-VIC", papers: [54, 56, 140,200, 212, 217, 375, 623, 650, 657] }
           ]
         },
