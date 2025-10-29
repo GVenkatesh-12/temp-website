@@ -5,31 +5,23 @@ const Speakers = () => {
   const speakers = [
     {
       id: 1,
-      name: "Dr. Amitava Chatterjee, FNAE, SMIEEE",
-      title: "Professor-Electrical Engineering",
-      affiliation: "Jadavpur University, West Bengal",
-      image: "/documents/speaker_1.jpg",
-      description: "Distinguished professor with expertise in electrical engineering and signal processing. Fellow of the National Academy of Engineering (FNAE) and Senior Member of IEEE (SMIEEE)."
+      name: "Dr. Debabrata Nayak",
+      title: "Director Cybersecurity",
+      affiliation: "PWC India Ltd",
+      image: "/documents/speaker_2.jpg",
+      description: "Experienced leader in cybersecurity with extensive industry experience at PwC India."
     },
     {
       id: 2,
-      name: "Dr. Debabrata Nayak",
-      title: "Director PWC India Ltd.",
-      affiliation: "PWC India Ltd.",
-      image: "/documents/speaker_2.jpg",
-      description: "Experienced director at PWC India Ltd. with extensive knowledge in business strategy and technology implementation across various industries."
+      name: "Dr. Saroj Kumar Meher",
+      title: "Professor-Systems Science and Informatics Unit",
+      affiliation: "Indian Statistical Institute, Bangalore",
+      image: "/documents/speaker_3.jpg",
+      description: "Renowned professor specializing in systems science and informatics at the Indian Statistical Institute, Bangalore."
     },
     {
       id: 3,
-      name: "Dr. Saroj Kumar Meher",
-      title: "Professor-Systems Science and Informatics Unit",
-      affiliation: "Indian Statistical Institute, Bangalore Centre",
-      image: "/documents/speaker_3.jpg",
-      description: "Renowned professor specializing in systems science and informatics. Leading researcher at the prestigious Indian Statistical Institute, Bangalore Centre."
-    },
-    {
-      id: 4,
-      name: "Dr. Tahir Ekin",
+      name: "Prof. Tahir Ekin",
       title: "Director, TXST Center for Analytics and Data Science",
       subtitle: "Professor, Department of Information Systems and Analytics",
       affiliation: "Texas State University",
@@ -37,22 +29,30 @@ const Speakers = () => {
       description: "Director of the TXST Center for Analytics and Data Science and Professor in the Department of Information Systems and Analytics at Texas State University."
     },
     {
-      id: 5,
+      id: 4,
       name: "Prof. Peter Han Joo Chong",
-      title: "Associate Head of School (Research)",
+      title: "Head of School (Research)",
       subtitle: "School of Engineering, Computer and Mathematical Sciences",
       affiliation: "Auckland University of Technology, New Zealand",
       image: "/documents/speaker_5.jpg",
-      description: "Associate Head of School (Research) at Auckland University of Technology, specializing in computer and mathematical sciences."
+      description: "Head of School (Research) at Auckland University of Technology, specializing in computer and mathematical sciences."
     },
     {
-      id: 6,
+      id: 5,
       name: "Dr. G. G. Md. Nawaz Ali",
       title: "Assistant Professor and Curriculum Committee Chair",
       subtitle: "Dept. of Computer Science and Information Systems",
       affiliation: "Bradley University, USA",
       image: "/documents/speaker_6.jpg",
       description: "Assistant Professor and Curriculum Committee Chair in the Department of Computer Science and Information Systems at Bradley University, USA."
+    },
+    {
+      id: 6,
+      name: "Prof. Amitava Chatterjee, FNAE",
+      title: "Department of Electrical Engineering",
+      affiliation: "Jadavpur University, West Bengal",
+      image: "/documents/speaker_1.jpg",
+      description: "Distinguished academic in electrical engineering and signal processing; Fellow of the National Academy of Engineering (FNAE)."
     }
   ];
 
