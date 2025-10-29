@@ -21,7 +21,7 @@ const Speakers = () => {
     },
     {
       id: 3,
-      name: "Prof. Tahir Ekin",
+      name: "Dr. Tahir Ekin",
       title: "Director, TXST Center for Analytics and Data Science",
       subtitle: "Professor, Department of Information Systems and Analytics",
       affiliation: "Texas State University",
@@ -30,8 +30,8 @@ const Speakers = () => {
     },
     {
       id: 4,
-      name: "Prof. Peter Han Joo Chong",
-      title: "Head of School (Research)",
+      name: "Dr. Peter Han Joo Chong",
+      title: "Professor & Head of School (Research)",
       subtitle: "School of Engineering, Computer and Mathematical Sciences",
       affiliation: "Auckland University of Technology, New Zealand",
       image: "/documents/speaker_5.jpg",
@@ -48,8 +48,8 @@ const Speakers = () => {
     },
     {
       id: 6,
-      name: "Prof. Amitava Chatterjee, FNAE",
-      title: "Department of Electrical Engineering",
+      name: "Dr. Amitava Chatterjee, FNAE",
+      title: "Professor, Electrical Engineering",
       affiliation: "Jadavpur University, West Bengal",
       image: "/documents/speaker_1.jpg",
       description: "Distinguished academic in electrical engineering and signal processing; Fellow of the National Academy of Engineering (FNAE)."
