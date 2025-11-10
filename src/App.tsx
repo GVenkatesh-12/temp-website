@@ -15,6 +15,7 @@ import AcceptedPapers from "./pages/AcceptedPapers";
 import Venue from "./pages/Venue";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
+import BestPaperAwards from "./pages/BestPaperAwards";
 import ScrollToTop from "./components/ScrollToTop";
 import OrganizingCommittee from "./pages/committees/OrganizingCommittee";
 import InternationalAdvisory from "./pages/committees/InternationalAdvisory";
@@ -47,6 +48,7 @@ const App = () => (
             <Route path="venue" element={<Venue />} />
             <Route path="contact" element={<Contact />} />
             <Route path="gallery" element={<Gallery />} />
+            <Route path="best-paper-awards" element={<BestPaperAwards />} />
             <Route path="committee">
               <Route path="organizing" element={<OrganizingCommittee />} />
               <Route path="international-advisory" element={<InternationalAdvisory />} />

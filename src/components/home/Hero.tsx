@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronUp } from 'lucide-react';
+import AwardBadge from './AwardBadge';
 
 const Hero: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-[100vh] py-4 sm:py-6">
+      {/* Award Badge - Floating in top right corner for desktop */}
+      <div className="fixed top-32 right-6 xl:right-8 z-30 hidden xl:block">
+        <AwardBadge />
+      </div>
 
       <div className="w-full flex justify-center items-center px-4 sm:px-6 mt-12 md:mt-16">
         <div className="relative z-10 max-w-4xl text-center">
@@ -24,9 +29,14 @@ const Hero: React.FC = () => {
             ELECTRICAL AND ELECTRONICS ENGINEERING
           </p>
 
-          <p className="text-white text-base sm:text-lg font-semibold mb-4 max-w-3xl mx-auto px-4 sm:px-6 leading-relaxed text-justify">
+          <p className="text-white text-base sm:text-lg font-semibold mb-6 max-w-3xl mx-auto px-4 sm:px-6 leading-relaxed text-justify">
             The 2025 IEEE 3rd International Symposium on Sustainable Energy, Signal Processing, and Cybersecurity (iSSSC 2025) is a leading forum for researchers, engineers, and industry experts to share innovations, research, and challenges in these key interdisciplinary fields. The symposium promotes collaboration and idea exchange through keynote talks, technical presentations, and specialized workshops focused on the latest advancements and future trends.
           </p>
+
+          {/* Award Badge - For tablet and below, show inline */}
+          <div className="flex justify-center mb-6 xl:hidden">
+            <AwardBadge />
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch px-4 sm:px-0">
             <Link
