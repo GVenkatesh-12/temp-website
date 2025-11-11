@@ -1,5 +1,4 @@
 import React from 'react';
-import { Download } from 'lucide-react';
 
 interface AwardPaper {
   paperId: string;
@@ -21,7 +20,7 @@ const BestPaperAwards: React.FC = () => {
         {
           paperId: "867",
           title: "Modelling and Analysis of Renewable Energy Integration and Electric Vehicle Impact on Microgrid Performance: A PSO-Based MPPT and ANFIS-Controlled Battery Approach",
-          authors: "Vijay Kumar; Dr.D. Ravi Kishore; B. Kavya Santhoshi; V. Suresh",
+          authors: "Vijay Kumar; D. Ravi Kishore; B. Kavya Santhoshi; V. Suresh",
           award: "Best Technical Paper Award – ISSSC 2025"
         },
         {
@@ -126,15 +125,6 @@ const BestPaperAwards: React.FC = () => {
     ));
   };
 
-  const handleDownloadPDF = () => {
-    const link = document.createElement('a');
-    link.href = '/documents/Best Paper Award.pdf';
-    link.download = 'Best Paper Award.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
     <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 max-w-6xl">
       {/* Header */}
@@ -145,16 +135,9 @@ const BestPaperAwards: React.FC = () => {
         <h2 className="text-xl md:text-2xl font-medium text-conference-blue mb-6">
           IEEE-iSSSC 2025
         </h2>
-        <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed mb-6">
+        <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Recognizing outstanding research contributions and celebrating excellence in innovation and scholarly achievement.
         </p>
-        <button
-          onClick={handleDownloadPDF}
-          className="inline-flex items-center gap-2 bg-conference-blue hover:bg-conference-dark-blue text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg transform hover:-translate-y-0.5"
-        >
-          <Download className="h-5 w-5" />
-          <span>Download Award Details (PDF)</span>
-        </button>
       </div>
 
       {/* Awards by Track */}
