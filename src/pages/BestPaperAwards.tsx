@@ -21,7 +21,7 @@ const BestPaperAwards: React.FC = () => {
           paperId: "867",
           title: "Modelling and Analysis of Renewable Energy Integration and Electric Vehicle Impact on Microgrid Performance: A PSO-Based MPPT and ANFIS-Controlled Battery Approach",
           authors: "Vijay Kumar; D. Ravi Kishore; B. Kavya Santhoshi; V. Suresh",
-          award: "Best Technical Paper Award – ISSSC 2025"
+          award: "Best Technical Paper Award – iSSSC 2025"
         },
         {
           paperId: "242",
@@ -38,7 +38,7 @@ const BestPaperAwards: React.FC = () => {
           paperId: "398",
           title: "Image Encryption framework using Cosine-Logistic Map",
           authors: "Puviarasu T S; Amutha R; Neevashine",
-          award: "Best Technical Paper Award – ISSSC 2025"
+          award: "Best Technical Paper Award – iSSSC 2025"
         },
         {
           paperId: "962",
@@ -61,7 +61,7 @@ const BestPaperAwards: React.FC = () => {
           paperId: "961",
           title: "A Unified Benchmark of Boosting and Tree-Based Models for Flow-Based Network Intrusion Detection",
           authors: "Rashmiranjan Nayak; Siddharth Sahu; Umesh Chandra Pati; Bibhudatta Sahoo",
-          award: "Outstanding Paper Award (Second Place) – ISSSC 2025"
+          award: "Outstanding Paper Award (Second Place) – iSSSC 2025"
         }
       ]
     },
@@ -72,13 +72,13 @@ const BestPaperAwards: React.FC = () => {
           paperId: "85",
           title: "Edible Oil Purity Check with a Sensor Based on Microwave Metasurface",
           authors: "Niten Panda; Rajarshi Paul",
-          award: "Best Technical Paper Award – ISSSC 2025"
+          award: "Best Technical Paper Award – iSSSC 2025"
         },
         {
           paperId: "908",
           title: "Adaptive Spectrum Sensing in Cognitive Radar System using SVM",
           authors: "Deekshitha Kandregula; Veerraju Sampenga; Pilla Bhargavi; Raveendhra Muppirisetti; Raja Ratna Prasad Bandaru; Ramana babu Challapalli",
-          award: "Outstanding Paper Award (Second Place) – ISSSC 2025"
+          award: "Outstanding Paper Award (Second Place) – iSSSC 2025"
         }
       ]
     },
@@ -89,19 +89,19 @@ const BestPaperAwards: React.FC = () => {
           paperId: "606",
           title: "Domain-Adversarial Neural Networks for Cross-Dataset Pneumonia Detection in Chest X-Rays",
           authors: "Soumya Behera; Deepankar Satpathy; Nihar Ranjan Mohapatra; Umesh Chandra Pati",
-          award: "Best Technical Paper Award – ISSSC 2025"
+          award: "Best Technical Paper Award – iSSSC 2025"
         },
         {
             paperId: "1072",
             title: "An Adaptive Fault-Tolerance Framework for Cloud-Fog Environments Using Reinforcement Learning and Predictive Analytics",
             authors: "Parthiban Mohandas; Balajee Maram",
-            award: "Outstanding Paper Award (Second Place) – ISSSC 2025"
+            award: "Outstanding Paper Award (Second Place) – iSSSC 2025"
           },
           {
             paperId: "68",
             title: "An Advanced Deep Learning-Driven Random Spiral Skew Optimization Framework for Robust Cybersecurity in IoT Networks",
             authors: "T Saravanan",
-            award: "Outstanding Paper Award (Second Place) – ISSSC 2025"
+            award: "Outstanding Paper Award (Second Place) – iSSSC 2025"
           }
       ]
     }
